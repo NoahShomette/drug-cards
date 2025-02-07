@@ -62,27 +62,27 @@ classesFolder.forEach(function (fileName, index) {
         cardJson.cards.push(cardJsonListing);
     }
 
-    try { fs.rmdirSync("/target", { recursive: true }) }
+    try { fs.rmdirSync("target", { recursive: true }) }
     catch (err) {
         console.error("failed to remove old target dir", err);
     }
-    try { fs.mkdirSync("/target",) }
+    try { fs.mkdirSync("target",) }
     catch (err) {
         console.error("failed to make new target dir", err);
         process.exit(1);
     }
     // Here we need to write the yearJson out to its `year-classes.json` file
-    try { fs.writeFileSync("/target", JSON.stringify(cardJson), { flag: 'w', force: true }) }
+    try { fs.writeFileSync("target/drug_cards.json", JSON.stringify(cardJson), { flag: 'w', force: true }) }
     catch (err) {
-        console.error("failed to write drug-cards.json", err);
+        console.error("failed to write drug_cards.json", err);
         process.exit(1);
     }
-    try { fs.cpSync("site", "/target", { recursive: true, force: true }) }
+    try { fs.cpSync("site", "target", { recursive: true, force: true }) }
     catch (err) {
         console.error("failed to cp site", err);
         process.exit(1);
     }
-    try { fs.cpSync("cards", "/target", { recursive: true, force: true }) }
+    try { fs.cpSync("cards", "target/cards", { recursive: true, force: true }) }
     catch (err) {
         console.error("failed to cp cards", err);
         process.exit(1);

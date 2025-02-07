@@ -1,0 +1,36 @@
+{
+    "name": "Acetaminophen",
+    "alt_names": [
+        "Tylenol",
+        "Motrin"
+    ],
+    "skill_level": "EMT",
+    "class": "Analgesic and Fever Reducer",
+    "indications": [
+        "Fever (>100.4)",
+        "Mild pain"
+    ],
+    "contraindications": [
+        "History of Liver Failure"
+    ],
+    "side_effects": [
+        "Nausea/Vomiting",
+        "Rarely Stevens-Johnson Syndrome"
+    ],
+    "routes": [
+        "{PO}"
+    ],
+    "interactions": "Take caution to avoid potential overdose - many OTC drugs contain acetaminophen",
+    "dose": {
+        "general": "Max 1000mg [UP11]",
+        "pedi": "15mg/kg liquid {PO} [UP11] [UP10]",
+        "adult": "325-1000mg tablet {PO} [UP11] [UP10]"
+    },
+    "protocols": [
+        "[UP10]",
+        "[UP11]"
+    ],
+    "pearls": [
+        "Either Acetaminophen or an NSAID MUST be present on a truck if an AEMT is present."
+    ]
+}
