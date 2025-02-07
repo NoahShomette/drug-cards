@@ -1,10 +1,3 @@
-/*
-Iterate through classes folder. Every folder inside it will represent a year of classes. Each year will get a `year-classes.json` file.
-
-Each class will be in a separate folder inside its year folder. The class folder will hold the flyer pdf.
-
-
-*/
 var fs = require('fs');
 var path = require('path');
 /**
