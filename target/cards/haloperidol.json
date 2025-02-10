@@ -1,7 +1,7 @@
 {
     "name": "Haloperidol",
     "skill_level": "AEMT",
-    "class": "Anitpsychotic",
+    "class": "Antipsychotic",
     "indications": [
         "State Protocols authorize {PO} or {ODT} with BARs 5",
         "Iredell County ONLY authorizes {IM} with BARs 6+"
