@@ -1,0 +1,38 @@
+{
+    "name": "",
+    "alt_names": [
+        "",
+        ""
+    ],
+    "skill_level": "",
+    "class": "",
+    "indications": [
+        "",
+        ""
+    ],
+    "contraindications": [
+        ""
+    ],
+    "side_effects": [
+        "",
+        ""
+    ],
+    "routes": [
+        "{}"
+    ],
+    "interactions": "",
+    "dose": {
+        "general": [""],
+        "pedi": "",
+        "adult": ""
+    },
+    "onset": "",
+    "duration": "",
+    "protocols": [
+        "[]",
+        "[]"
+    ],
+    "pearls": [
+        ""
+    ]
+}

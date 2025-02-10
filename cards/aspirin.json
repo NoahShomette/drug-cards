@@ -1,0 +1,56 @@
+{
+    "name": "Aspirin",
+    "alt_names": [
+        "Acetylsalicylic Acid",
+        "ASA"
+    ],
+    "skill_level": "EMR",
+    "class": [
+        "NSAID",
+        "Platelet aggregation inhibitor",
+        "Analgesic",
+        "antypyretic"
+    ],
+    "indications": [
+        "Chest pain/discomfort believed to be of cardiac etiology",
+        "Actu Coronary Syndrome / STEMI"
+    ],
+    "contraindications": [
+        "GI bleeding",
+        "Active ulcer disease",
+        "Hemorrhagic stroke",
+        "Bleeding disorders",
+        "Pediatric patients"
+    ],
+    "side_effects": [
+        "Gastritis",
+        "Nausea/vomiting",
+        "Upper GI bleeding",
+        "Increased bleeding",
+        "Heartburn or indigestion"
+    ],
+    "routes": [
+        "{}"
+    ],
+    "interactions": "",
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": "",
+        "adult": ""
+    },
+    "onset": "15-30 minutes",
+    "duration": "4-6 hours - residual effects may persist 4-10 days",
+    "protocols": [
+        "[]",
+        "[]"
+    ],
+    "pearls": [
+        "ASA is contraindicated in pediatric or adolescents due to concern for Reye's syndrome (Reye's syndrome is characterized by CNS damage, liver injury, and hypoglycemia).",
+        "By inhibiting platelet function, aspirin may lead to an increase in bleeding for patients with bleeding disorders.",
+        "Patients with peptic ulcer disease should avoid aspirin, as it may result in irritation and bleeding.",
+        "Decreased effects with antacids and steroids",
+        "Increased effects with anticoagulants, insulin, oral hypoglycemics, and fibrinolytic agents"
+    ]
+}

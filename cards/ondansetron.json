@@ -30,7 +30,7 @@
     ],
     "interactions": "Use with caution if administering with other agents that may cause QTI prolongation",
     "dose": {
-        "general": "May repeat in 15 minutes [UP3]",
+        "general": ["May repeat in 15 minutes [UP3]"],
         "pedi": "0.2mg/kg [UP3]",
         "adult": "4mg [SC3] [UP3]"
     },

@@ -4,7 +4,7 @@
         "Tylenol",
         "Motrin"
     ],
-    "skill_level": "EMT",
+    "skill_level": "EMR",
     "class": "Analgesic and Fever Reducer",
     "indications": [
         "Fever (>100.4)",
@@ -22,7 +22,7 @@
     ],
     "interactions": "Take caution to avoid potential overdose - many OTC drugs contain acetaminophen",
     "dose": {
-        "general": "Max 1000mg [UP11]",
+        "general": ["Max 1000mg [UP11]"],
         "pedi": "15mg/kg liquid {PO} [UP11] [UP10]",
         "adult": "325-1000mg tablet {PO} [UP11] [UP10]"
     },
