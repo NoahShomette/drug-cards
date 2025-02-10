@@ -13,23 +13,28 @@
         "Pregnancy (1st trimester)"
     ],
     "side_effects": [
-        "Pain/Swelling/Rash at injection site",
-        "Colitis",
-        "Nausea/Vomiting",
+        "Headache (particularly in those prone to migraine headaches)",
+        "QTI prolongation",
+        "AV conduction disturbance (associated with rapid administration)",
+        "Sedation",
         "Diarrhea",
-        "Neutropenia"
+        "Dry mouth",
+        "Serotonin syndrome"
     ],
     "routes": [
-        "{IV/IO}"
+        "{IV}",
+        "{IM}"
     ],
     "interactions": "Use with caution if administering with other agents that may cause QTI prolongation",
     "dose": {
         "general": "Titrate over 10 minutes [TB4]",
-        "pedi": "20 mg/kg {IV/IO} [TB4]",
-        "adult": "2G IV/IO {IV/IO} [TB4]"
+        "pedi": "",
+        "adult": "4mg {IV} {IM} [SC3]"
     },
+    "onset": "15-30 minutes",
+    "duration": "4-8 hours",
     "protocols": [
-        "[TB4]"
+        "[SC3]"
     ],
     "pearls": [
         "Patients with open fractures or amputations have best outcomes if receiving antibiotics within 60 minutes or less.",
