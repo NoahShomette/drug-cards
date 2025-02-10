@@ -29,30 +29,6 @@ jobs:
       - name: Process cards
         run: |
           node automation/build/cardAction.js
-
-      # Commits if anything new was changed
-      - name: Commit
-        id: commit
-        run: |
-          set +e
-          git config --local user.name  ${{ github.actor }}        
-          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
-          git add -A .
-          git commit -m "Process classes and blogs and commit changes"
-          echo "exitcode=$?" >> $GITHUB_OUTPUT
-          exit "0"
-      # Pushes if anything new was changed
-      - name: Push Changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
-      - name: Push Changes to Release
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
-          branch: release
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
