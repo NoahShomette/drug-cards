@@ -23,21 +23,21 @@
     ],
     "routes": [
         "{IV}",
-        "{IM}"
+        "{IO}",
+        "{IM}",
+        "{ODT}",
+        "{PO}"
     ],
     "interactions": "Use with caution if administering with other agents that may cause QTI prolongation",
     "dose": {
-        "general": "Titrate over 10 minutes [TB4]",
-        "pedi": "",
-        "adult": "4mg {IV} {IM} [SC3]"
+        "general": "May repeat in 15 minutes [UP3]",
+        "pedi": "0.2mg/kg [UP3]",
+        "adult": "4mg [SC3] [UP3]"
     },
     "onset": "15-30 minutes",
     "duration": "4-8 hours",
     "protocols": [
-        "[SC3]"
-    ],
-    "pearls": [
-        "Patients with open fractures or amputations have best outcomes if receiving antibiotics within 60 minutes or less.",
-        "Agencies administering antibiotics should inquire about drug allergies specific to antibiotics or family of antibiotics."
+        "[SC3]",
+        "[UP3]"
     ]
 }
