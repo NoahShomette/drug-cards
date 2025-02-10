@@ -1,0 +1,37 @@
+{
+    "name": "Haloperidol",
+    "skill_level": "AEMT",
+    "class": "Anitpsychotic",
+    "indications": [
+        "State Protocols authorize {PO} or {ODT} with BARs 5",
+        "Iredell County ONLY authorizes {IM} with BARs 6+"
+    ],
+    "contraindications": [
+        "Depressed mental status",
+        "Parkinson's disease",
+        "Prolonged QTI (>440 ms in males, >450 ms in females)"
+    ],
+    "side_effects": [
+        "Extrapyramidal symptoms (dystonia)",
+        "QT prolongation"
+    ],
+    "routes": [
+        "{PO}",
+        "{IM}",
+        "{ODT}"
+    ],
+    "dose": {
+        "general": ["Not indicated for patients < 12 [UP18]", "May repeat every 5 minutes as needed [UP18]", "Maximum of 10mg [UP18]"],
+        "pedi": "Age >= 12 2-5mg {IM} [UP18]",
+        "adult": "2-5mg {IM} - age >= 2.5mg {IM} [UP18]"
+    },
+    "onset": "15 minutes",
+    "duration": "Variable - often 12-24 hours",
+    "protocols": [
+        "[UP18]"
+    ],
+    "pearls": [
+        "Haloperidol can cause Extrapyramidal Reactions - Condition involving involuntary muscle movements or spasms typically of the face, neck and upper extremities. May present with contorted neck and trunk with difficult motor movements. Give Diphenhydramine according to protocols for allergic reaction.",
+        "1. Difficult or unable to rouse 2. Asleep but responds normally to verbal or physical contact 3. Drowsy, appears sedated 4. Quiet and awake (normal level of activity) 5. Signs of overt (physical or verbal) activity, calms down with instructions 6. Extremely or continuously active, not requiring restraint 7. Violent, requires restraint*"
+    ]
+}
