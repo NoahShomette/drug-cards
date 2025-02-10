@@ -20,7 +20,7 @@
         "Active ulcer disease",
         "Hemorrhagic stroke",
         "Bleeding disorders",
-        "Pediatric patients"
+        "Pediatric patients <= 15 YOA"
     ],
     "side_effects": [
         "Gastritis",
@@ -30,21 +30,18 @@
         "Heartburn or indigestion"
     ],
     "routes": [
-        "{}"
+        "{PO}"
     ],
-    "interactions": "",
     "dose": {
-        "general": [
-            ""
-        ],
-        "pedi": "",
-        "adult": ""
+        "pedi": ["Contraindicated for patients < 16 YOA. Use adult dosage for patients >= 16"],
+        "adult": ["81mg x 4 {PO} chewed or 325mg {PO} for cardiac pain [AC4]",  "324-650mg {PO} for pain control [UP11]"]
     },
     "onset": "15-30 minutes",
     "duration": "4-6 hours - residual effects may persist 4-10 days",
     "protocols": [
-        "[]",
-        "[]"
+        "[AC4]",
+        "[UP11]",
+        "[TE7]"
     ],
     "pearls": [
         "ASA is contraindicated in pediatric or adolescents due to concern for Reye's syndrome (Reye's syndrome is characterized by CNS damage, liver injury, and hypoglycemia).",
@@ -52,5 +49,6 @@
         "Patients with peptic ulcer disease should avoid aspirin, as it may result in irritation and bleeding.",
         "Decreased effects with antacids and steroids",
         "Increased effects with anticoagulants, insulin, oral hypoglycemics, and fibrinolytic agents"
-    ]
+    ],
+    "overdose_signs":"Early signs consist of abdominal pain and vomiting.  Tachypnea and altered mental status may occur later.  Renal dysfunction, liver failure, and or cerebral edema among other things can take place later. [TE7]"
 }

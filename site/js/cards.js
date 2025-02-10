@@ -48,8 +48,11 @@ export async function showDrugCard(caller) {
         drugCardClone.querySelector('#routes').innerText = drug.routes;
         drugCardClone.querySelector('#interactions').innerText = drug.interactions;
         drugCardClone.querySelector('#dose').innerText = drug.dose;
+        drugCardClone.querySelector('#onset').innerText = drug.onset;
+        drugCardClone.querySelector('#duration').innerText = drug.duration;
         drugCardClone.querySelector('#protocols').innerText = drug.protocols;
         drugCardClone.querySelector('#pearls').innerText = drug.pearls;
+        drugCardClone.querySelector('#overdose-signs').innerText = drug.overdose_signs;
 
         drugCards.append(drugCardClone);
 

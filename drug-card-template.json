@@ -23,8 +23,8 @@
     "interactions": "",
     "dose": {
         "general": [""],
-        "pedi": "",
-        "adult": ""
+        "pedi": [""],
+        "adult": [""]
     },
     "onset": "",
     "duration": "",
@@ -34,5 +34,6 @@
     ],
     "pearls": [
         ""
-    ]
+    ],
+    "overdose-signs": ""
 }

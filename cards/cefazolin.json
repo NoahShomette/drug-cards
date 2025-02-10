@@ -27,8 +27,8 @@
     "interactions": "Take caution to avoid potential overdose - many OTC drugs contain acetaminophen",
     "dose": {
         "general": ["Titrate over 10 minutes [TB4]"],
-        "pedi": "20 mg/kg {IV/IO} [TB4]",
-        "adult": "2G IV/IO {IV/IO} [TB4]"
+        "pedi": ["20 mg/kg {IV/IO} [TB4]"],
+        "adult": ["2G IV/IO {IV/IO} [TB4]"]
     },
     "protocols": [
         "[TB4]"

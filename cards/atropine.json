@@ -1,0 +1,49 @@
+{
+    "name": "Atropine",
+    "skill_level": "AEMT",
+    "class": "Anticholinergic (more specifically, antimuscarinic)",
+    "indications": [
+        "Organophosphate/nerve agent toxicity"
+    ],
+    "contraindications": [
+        "Glaucoma (relative contraindication to atropine administration in the setting of life-threatening bradycardia)",
+        "Use with caution in presence of myocardial ischemia and hypoxia",
+        "Avoid in hypothermic bradycardia",
+        "Obstructive disease of GI tract",
+        "Obstructive uropathy",
+        "Unstable cardiovascular status in acute hemorrhage with myocardial ischemia",
+        "Thyrotoxicosis"
+    ],
+    "side_effects": [
+        "Tachycardia (may worsen myocardial ischemia)",
+        "Blurred vision (high doses)",
+        "Urinary retention",
+        "Paradoxical bradycardia",
+        "Palpitations",
+        "Dysrhythmias",
+        "Headache",
+        "Dizziness",
+        "Anticholinergic effects",
+        "Nausea/vomiting",
+        "Flushed, hot, dry skin"
+    ],
+    "routes": [
+        "{Autoinjector}"
+    ],
+    "interactions": "",
+    "dose": {
+        "general": [""],
+        "pedi": [""],
+        "adult": ["2mg as part of WMD {Autoinjector} (combined with 600mg Pralidoxime) [TE8]"]
+    },
+    "onset": "Rapid",
+    "duration": "2-6 Hours",
+    "protocols": [
+        "[TE7]",
+        "[TE8]"
+    ],
+    "pearls": [
+        ""
+    ],
+    "overdose-signs": ""
+}
