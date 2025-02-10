@@ -47,6 +47,7 @@ classesFolder.forEach(function (fileName, index) {
         cardJsonListing.side_effects = file.side_effects;
         cardJsonListing.routes = file.routes;
         cardJsonListing.dose = file.dose;
+        cardJsonListing.protocols = file.protocols;
 
         // Optional fields
         if (file.hasOwnProperty("alt_names")) {

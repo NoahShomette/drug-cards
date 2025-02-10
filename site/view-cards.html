@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="module" fetchpriority="high">
+        import { displayCard, displayCardLinks } from "./js/cards.js";
+        displayCard();
+        displayCardLinks();
+    </script>
+    <title>AEMT Drug Cards</title>
+</head>
+
+<body>
+
+    <template id="card-link-template">
+        <a href="#drug-card" data-drug-name="ChangeMe">
+            <div class="card-link" style="pointer-events: none;">
+                Drug Name</div>
+        </a>
+    </template>
+
+    <template id="drug-card-template">
+        <div>
+            <div id="drug-name"></div>
+            <div id="alt-names"></div>
+            <div id="skill-level"></div>
+            <div id="class"></div>
+            <div id="indications"></div>
+            <div id="contraindications"></div>
+            <div id="side-effects"></div>
+            <div id="routes"></div>
+            <div id="interactions"></div>
+            <div id="dose"></div>
+            <div id="protocols"></div>
+            <div id="pearls"></div>
+
+        </div>
+    </template>
+
+    <div class="d-flex flex-row">
+        <div id="drug-links"></div>
+        <div id="drug-cards">
+
+        </div>
+    </div>
+
+</body>
