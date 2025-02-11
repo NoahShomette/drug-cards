@@ -68,7 +68,6 @@ classesFolder.forEach(function (fileName, index) {
 
         cardJson.cards.push(cardJsonListing);
     }
-
     try { fs.rmSync("target", { recursive: true }) }
     catch (err) {
         console.error("failed to remove old target dir", err);
@@ -78,8 +77,7 @@ classesFolder.forEach(function (fileName, index) {
         console.error("failed to make new target dir", err);
         process.exit(1);
     }
-    // Here we need to write the yearJson out to its `year-classes.json` file
-    try { fs.writeFileSync("target/drug_cards.json", JSON.stringify(cardJson), { flag: 'w', force: true }) }
+    try { fs.writeFileSync("target/drug_cards.json", JSON.stringify(cardJson), { flag: 'w', flush: true }) }
     catch (err) {
         console.error("failed to write drug_cards.json", err);
         process.exit(1);
