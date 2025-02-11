@@ -1,7 +1,9 @@
 {
     "name": "Atropine",
     "skill_level": "AEMT",
-    "class": "Anticholinergic (more specifically, antimuscarinic)",
+    "class": [
+        "Anticholinergic (more specifically, antimuscarinic)"
+    ],
     "indications": [
         "Organophosphate/nerve agent toxicity"
     ],
@@ -26,9 +28,15 @@
     ],
     "interactions": "",
     "dose": {
-        "general": [""],
-        "pedi": [""],
-        "adult": ["2mg as part of WMD {Autoinjector} (combined with 600mg Pralidoxime) [TE8]"]
+        "general": [
+            ""
+        ],
+        "pedi": [
+            ""
+        ],
+        "adult": [
+            "2mg as part of WMD {Autoinjector} (combined with 600mg Pralidoxime) [TE8]"
+        ]
     },
     "onset": "Rapid",
     "duration": "2-6 Hours",

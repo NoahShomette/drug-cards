@@ -5,7 +5,9 @@
         "Antibiotics"
     ],
     "skill_level": "AEMT",
-    "class": "Cephalosporin antibiotic",
+    "class": [
+        "Cephalosporin antibiotic"
+    ],
     "indications": [
         "Open fractures",
         "amputations",
@@ -26,13 +28,19 @@
     ],
     "interactions": "Take caution to avoid potential overdose - many OTC drugs contain acetaminophen",
     "dose": {
-        "general": ["Titrate over 10 minutes [TB4]"],
-        "pedi": ["20 mg/kg {IV/IO} [TB4]"],
-        "adult": ["2G IV/IO {IV/IO} [TB4]"]
+        "general": [
+            "Titrate over 10 minutes [TB4]"
+        ],
+        "pedi": [
+            "20 mg/kg {IV/IO} [TB4]"
+        ],
+        "adult": [
+            "2G IV/IO {IV/IO} [TB4]"
+        ]
     },
     "protocols": [
         "[TB4]"
-        ],
+    ],
     "pearls": [
         "Patients with open fractures or amputations have best outcomes if receiving antibiotics within 60 minutes or less.",
         "Agencies administering antibiotics should inquire about drug allergies specific to antibiotics or family of antibiotics."

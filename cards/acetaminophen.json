@@ -5,7 +5,9 @@
         "Motrin"
     ],
     "skill_level": "EMR",
-    "class": "Analgesic and Fever Reducer",
+    "class": [
+        "Analgesic and Fever Reducer"
+    ],
     "indications": [
         "Fever (>100.4)",
         "Mild pain"
@@ -22,9 +24,15 @@
     ],
     "interactions": "Take caution to avoid potential overdose - many OTC drugs contain acetaminophen",
     "dose": {
-        "general": ["Max 1000mg [UP11]"],
-        "pedi": ["15mg/kg liquid {PO} [UP11] [UP10]"],
-        "adult": ["325-1000mg tablet {PO} [UP11] [UP10]"]
+        "general": [
+            "Max 1000mg [UP11]"
+        ],
+        "pedi": [
+            "15mg/kg liquid {PO} [UP11] [UP10]"
+        ],
+        "adult": [
+            "325-1000mg tablet {PO} [UP11] [UP10]"
+        ]
     },
     "protocols": [
         "[UP10]",
@@ -33,5 +41,5 @@
     "pearls": [
         "Either Acetaminophen or an NSAID MUST be present on a truck if an AEMT is present."
     ],
-    "overdose_signs":"initially normal or nausea/ vomiting.  If not detected and treated, causes irreversible liver failure"
+    "overdose_signs": "initially normal or nausea/ vomiting.  If not detected and treated, causes irreversible liver failure"
 }

@@ -1,7 +1,9 @@
 {
     "name": "Haloperidol",
     "skill_level": "AEMT",
-    "class": "Antipsychotic",
+    "class": [
+        "Antipsychotic"
+    ],
     "indications": [
         "State Protocols authorize {PO} or {ODT} with BARs 5",
         "Iredell County ONLY authorizes {IM} with BARs 6+"
@@ -21,9 +23,18 @@
         "{ODT}"
     ],
     "dose": {
-        "general": ["Not indicated for patients < 12 [UP18]", "May repeat every 5 minutes as needed [UP18]", "Maximum of 10mg [UP18]"],
-        "pedi": ["Age >= 12 2-5mg {IM} [UP18]"],
-        "adult": ["2-5mg {IM} [UP18]", "age >= 65 2.5mg {IM} [UP18]"]
+        "general": [
+            "Not indicated for patients < 12 [UP18]",
+            "May repeat every 5 minutes as needed [UP18]",
+            "Maximum of 10mg [UP18]"
+        ],
+        "pedi": [
+            "Age >= 12 2-5mg {IM} [UP18]"
+        ],
+        "adult": [
+            "2-5mg {IM} [UP18]",
+            "age >= 65 2.5mg {IM} [UP18]"
+        ]
     },
     "onset": "15 minutes",
     "duration": "Variable - often 12-24 hours",

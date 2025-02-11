@@ -39,22 +39,67 @@ export async function showDrugCard(caller) {
         drugCardClone.id = "drug-card-" + drug.name;
         drugCardClone.classList.add("active-card");
         drugCardClone.querySelector('#drug-name').innerText = drug.name;
-        drugCardClone.querySelector('#alt-names').innerText = drug.alt_names;
+        if (drug.dose.hasOwnProperty("alt_names")) {
+            drugCardClone.querySelector('#alt-names').innerText = drug.alt_names;
+        }
         drugCardClone.querySelector('#skill-level').innerText = drug.skill_level;
-        drugCardClone.querySelector('#class').innerText = drug.class;
-        drugCardClone.querySelector('#indications').innerText = drug.indications;
-        drugCardClone.querySelector('#contraindications').innerText = drug.contraindications;
-        drugCardClone.querySelector('#side-effects').innerText = drug.side_effects;
-        drugCardClone.querySelector('#routes').innerText = drug.routes;
-        drugCardClone.querySelector('#interactions').innerText = drug.interactions;
-        drugCardClone.querySelector('#dose').innerText = drug.dose;
-        drugCardClone.querySelector('#onset').innerText = drug.onset;
-        drugCardClone.querySelector('#duration').innerText = drug.duration;
-        drugCardClone.querySelector('#protocols').innerText = drug.protocols;
-        drugCardClone.querySelector('#pearls').innerText = drug.pearls;
-        drugCardClone.querySelector('#overdose-signs').innerText = drug.overdose_signs;
+        for (let i = 0; i < drug.class.length; i++) {
+            drugCardClone.querySelector('#class').append(createElementFromText(drug.class[i]));
+        }
+        for (let i = 0; i < drug.indications.length; i++) {
+            drugCardClone.querySelector('#indications').append(createElementFromText(drug.indications[i]));
+        }
+        for (let i = 0; i < drug.contraindications.length; i++) {
+            drugCardClone.querySelector('#contraindications').append(createElementFromText(drug.contraindications[i]));
+        }
+        for (let i = 0; i < drug.side_effects.length; i++) {
+            drugCardClone.querySelector('#side-effects').append(createElementFromText(drug.side_effects[i]));
+        }
+        for (let i = 0; i < drug.routes.length; i++) {
+            drugCardClone.querySelector('#routes').append(createElementFromText(drug.routes[i]));
+        }
+        if (drug.hasOwnProperty("interactions")) {
+            drugCardClone.querySelector('#interactions').innerText = drug.interactions;
+        }
+        if (drug.dose.hasOwnProperty("general")) {
+            for (let i = 0; i < drug.dose.general.length; i++) {
+                drugCardClone.querySelector('#dose-general').append(createElementFromText(drug.dose.general[i]));
+            }
+        }
+        if (drug.dose.hasOwnProperty("pedi")) {
+            for (let i = 0; i < drug.dose.pedi.length; i++) {
+                drugCardClone.querySelector('#dose-pedi').append(createElementFromText(drug.dose.pedi[i]));
+            }
+        }
+        if (drug.dose.hasOwnProperty("adult")) {
+            for (let i = 0; i < drug.dose.adult.length; i++) {
+                drugCardClone.querySelector('#dose-adult').append(createElementFromText(drug.dose.adult[i]));
+            }
+        }
+        if (drug.hasOwnProperty("drug")) {
+            drugCardClone.querySelector('#onset').innerText = drug.onset;
+        }
+        if (drug.hasOwnProperty("duration")) {
+            drugCardClone.querySelector('#duration').innerText = drug.duration;
+        }
 
+        drugCardClone.querySelector('#protocols').innerText = drug.protocols;
+
+        if (drug.hasOwnProperty("pearls")) {
+            for (let i = 0; i < drug.pearls.length; i++) {
+                drugCardClone.querySelector('#pearls').append(createElementFromText(drug.pearls[i]));
+            }
+        }
+        if (drug.hasOwnProperty("overdose_signs")) {
+            drugCardClone.querySelector('#overdose-signs').innerText = drug.overdose_signs;
+        }
         drugCards.append(drugCardClone);
 
     });
+}
+
+function createElementFromText(text) {
+    let newDiv = document.createElement("div");
+    newDiv.innerText = text;
+    return newDiv
 }

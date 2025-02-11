@@ -59,11 +59,17 @@ classesFolder.forEach(function (fileName, index) {
         if (file.hasOwnProperty("pearls")) {
             cardJsonListing.pearls = file.pearls;
         }
+        if (file.hasOwnProperty("onset")) {
+            cardJsonListing.onset = file.onset;
+        }
+        if (file.hasOwnProperty("duration")) {
+            cardJsonListing.duration = file.duration;
+        }
 
         cardJson.cards.push(cardJsonListing);
     }
 
-    try { fs.rmdirSync("target", { recursive: true }) }
+    try { fs.rmSync("target", { recursive: true }) }
     catch (err) {
         console.error("failed to remove old target dir", err);
     }
