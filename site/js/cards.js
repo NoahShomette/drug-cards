@@ -113,7 +113,7 @@ function renderCard(drug) {
             drugCardClone.querySelector('#dose-adult').append(createElementFromText(drug.dose.adult[i]));
         }
     }
-    if (drug.hasOwnProperty("drug")) {
+    if (drug.hasOwnProperty("onset")) {
         drugCardClone.querySelector('#onset').innerText = drug.onset;
     }
     if (drug.hasOwnProperty("duration")) {
