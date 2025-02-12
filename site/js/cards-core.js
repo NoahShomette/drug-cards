@@ -7,7 +7,7 @@ async function loadCards() {
         return res.json();
     }).then(function (cards) {
         for (let i = 0; i < cards.cards.length; i++) {
-            CardIndex.set(cards.cards[i].name, i);
+            CardIndex.set(cards.cards[i].name.toLowerCase(), i);
         }
         sessionStorage.setItem("card_index", JSON.stringify(Array.from(CardIndex.entries())));
         sessionStorage.setItem("cards", JSON.stringify(cards.cards));
@@ -15,10 +15,23 @@ async function loadCards() {
     });
 }
 
+async function loadCardsIndex() {
+    return await fetch("./drug_cards.json").then(function (res) {
+        return res.json();
+    }).then(function (cards) {
+        for (let i = 0; i < cards.cards.length; i++) {
+            CardIndex.set(cards.cards[i].name.toLowerCase(), i);
+        }
+        sessionStorage.setItem("card_index", JSON.stringify(Array.from(CardIndex.entries())));
+        sessionStorage.setItem("cards", JSON.stringify(cards.cards));
+        return CardIndex;
+    });
+}
+
 // Gets the blogs.json or loads it if it hasnt already been gotten
 export async function getCards() {
     if (!loadingCards) {
-        if (sessionStorage.getItem("cards") === null || checkIfReloaded()) {
+        if (sessionStorage.getItem("cards") === null || checkIfReloaded() || sessionStorage.getItem("card_index") === null) {
             loadingCards = true;
             return await loadCards();
         } else {
@@ -36,6 +49,26 @@ export async function getCards() {
     }
 }
 
+export async function getCardsIndex() {
+    if (!loadingCards) {
+        if (checkIfReloaded() || sessionStorage.getItem("card_index") === null) {
+            loadingCards = true;
+            return await loadCardsIndex();
+        } else {
+            CardIndex = new Map(JSON.parse(sessionStorage.getItem("card_index")));
+            let cards = sessionStorage.getItem("cards");
+
+            if (!cards) {
+                throw Error("Session Storage did not contain 'cards' item")
+            } else {
+                return CardIndex
+            }
+        }
+    } else {
+        return await timeoutToGetCardsIndex();
+    }
+}
+
 let wait = t => new Promise(resolve => setTimeout(resolve, t))
 
 async function timeoutToGetCards() {
@@ -48,6 +81,19 @@ async function timeoutToGetCards() {
         throw Error("Session Storage did not contain 'cards' item")
     } else {
         return blogs_item
+    }
+}
+
+async function timeoutToGetCardsIndex() {
+    while (sessionStorage.getItem("card_index") === null) {
+        await wait(50);
+    }
+    CardIndex = new Map(JSON.parse(sessionStorage.getItem("card_index")));
+
+    if (!CardIndex) {
+        throw Error("Session Storage did not contain 'cards' item")
+    } else {
+        return CardIndex
     }
 }
 

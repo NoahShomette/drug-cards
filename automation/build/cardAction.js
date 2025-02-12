@@ -65,7 +65,9 @@ classesFolder.forEach(function (fileName, index) {
         if (file.hasOwnProperty("duration")) {
             cardJsonListing.duration = file.duration;
         }
-
+        if (file.hasOwnProperty("overdose_signs")) {
+            cardJsonListing.overdose_signs = file.overdose_signs;
+        }
         cardJson.cards.push(cardJsonListing);
     }
     try { fs.rmSync("target", { recursive: true }) }

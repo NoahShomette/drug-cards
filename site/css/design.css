@@ -1,0 +1,8 @@
+.primary-hover:hover {
+    color: var(--bs-primary) !important;
+}
+
+.active.active-bold > * {
+    font-weight: bold;
+    color: var(--bs-primary);
+}
