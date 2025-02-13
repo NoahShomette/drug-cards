@@ -1,0 +1,36 @@
+{
+    "name": "Oral Glucose",
+    "class": [
+        "Carbohydrate"
+    ],
+    "indications": [
+        "Hypoglycemia",
+        "Beta antagonist toxicity"
+    ],
+    "contraindications": [
+        "Loss of airway protective reflexes or other risk for aspiration",
+        "Patient <2 years of age."
+    ],
+    "side_effects": [
+        "Aspiration",
+        "Vomiting"
+    ],
+    "routes": [
+        "{PO}"
+    ],
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": [
+            "1/2 to 1 tube approximately (7.5-15) if > 2 years of age"
+        ],
+        "adult": [
+            "1 tube approximately 15g"
+        ]
+    },
+    "protocols": [
+        "[AM2]",
+        "[PM2]"
+    ]
+}
