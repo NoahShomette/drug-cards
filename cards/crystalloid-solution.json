@@ -1,0 +1,53 @@
+{
+    "name": "Crystalloid Solution",
+    "alt_names": [
+        "Lactated Ringer"
+    ],
+    "skill_level": "AEMT",
+    "class": [
+        "Crystalloid"
+    ],
+    "indications": [
+        "Dehydration",
+        "Hypovolemia",
+        "Shock",
+        "Burns",
+        "Ocular irrigation"
+    ],
+    "contraindications": [
+        "Profound liver failure"
+    ],
+    "side_effects": [
+        "Fluid overload",
+        "Metabolic alkalosis",
+        "Increased intracranial pressure (large volumes, primarily of concern in patients with already increased intracranial pressure)"
+    ],
+    "routes": [
+        "{IV/IO}"
+    ],
+    "dose": {
+        "general": [
+            "TBSA - Total Body Surface Area - severity of burns metric measuring only 2nd and 3rd degree burns",
+            "All ages if TBSA < 20% 0.25 mL/kg * (TBSA%)/hr"
+        ],
+        "pedi": [
+            "TBSA >= 20% and age <= 5 125 mL/hr",
+            "TBSA >= 20% and age 6-14 250 mL/hr"
+        ],
+        "adult": [
+            "TBSA >= 20% and age >= 15 500 mL/hr"
+        ]
+    },
+    "protocols": [
+        "[AC4]",
+        "[TB1]",
+        "[TB4]",
+        "[TB9]",
+        "[UP7]"
+    ],
+    "pearls": [
+        "Use Lactated Ringers (if available) for all Critical or Serious Burns [TB1]",
+        "For amputated parts - Wrap part in sterile dressing soaked in normal saline or lactated ringer [TB4]",
+        "For avulsed tooth - rinse with normal saline or lactated ringers [UP7]"
+    ]
+}

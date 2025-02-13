@@ -11,6 +11,9 @@
         "Sympathomimetic",
         "Bronchodilator"
     ],
+    "contraindications": [
+        "None in a true Asthmatic or anaphylaxis emergency. Be discerning that you are actually dealing with an asthma or anaphylaxis emergency"
+    ],
     "indications": [
         "Bronchospasm (asthma/reactive airway, anaphylaxis)"
     ],
@@ -26,7 +29,7 @@
     ],
     "dose": {
         "general": [
-            "For Pedi and Adult can add Ipratropium 0.5mg for a DuoNeb based on patient severity"
+            "For Pedi and Adult can add Ipratropium 0.5mg for a DuoNeb based on patient severity if Albuterol hasn't worked or patient has wet wheeze"
         ],
         "pedi": [
             "Asthma - 1.25-2.5mg Albuterol {Nebulizer} repeat as needed x3 [AR7]",
@@ -46,6 +49,7 @@
     ],
     "pearls": [
         "[AR4] Patients may require more than 3 nebulizer treatments, treatments should continue until improvement. Following 3 combination nebulizers (DuoNeb), it is preferable to continue albuterol solely with subsequent treatments as there is no proven benefit to continual use of ipratropium.",
-        "[PC3] Be aware of CHF - Do not assume all wheezing is pulmonary, especially in a cardiac child: avoid albuterol unless strong history of recurrent wheezing secondary to pulmonary etiology (discuss with Medical Control)"
+        "[PC3] Be aware of CHF - Do not assume all wheezing is pulmonary, especially in a cardiac child: avoid albuterol unless strong history of recurrent wheezing secondary to pulmonary etiology (discuss with Medical Control)",
+        "Paradoxical bronchospasm may occur in a small percentage of patients who receive albuterol. A proposed etiology is attributed to other compounds in the albuterol preparation. If paradoxical bronchospasm (evidenced by significantly increased and severe bronchospasm following administration) is suspected, discontinue use (avoid levalbuterol as well)"
     ]
 }

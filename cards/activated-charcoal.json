@@ -1,0 +1,45 @@
+{
+    "name": "Activated Charcoal",
+    "alt_names": [
+        "Acti-Dose"
+    ],
+    "skill_level": "EMT",
+    "class": [
+        "Adsorbant"
+    ],
+    "indications": [
+        "Ingestion of TOXIC substances"
+    ],
+    "contraindications": [
+        "Altered Mental Status",
+        "No intact airway",
+        "Ingestion of CAUSTIC substances",
+        "Intestinal obstruction"
+    ],
+    "side_effects": [
+        "Black tarry stools",
+        "Constipation, or mild transient diarrhea",
+        "Nausea/vomiting"
+    ],
+    "routes": [
+        "{PO}"
+    ],
+    "interactions": "Will interact with syrup of ipecac (absorbed by AC and will result in vomiting of the charcoal)",
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": [
+            "If time of ingestion < 1hr - 1gm/kg max 50mg {PO}"
+        ],
+        "adult": [
+            "If time of ingestion < 1hr - 1gm/kg max 50mg {PO}"
+        ]
+    },
+    "protocols": [
+        "[TE7]"
+    ],
+    "pearls": [
+        "Most important aspect is the TIME OF INGESTION, the substance(s), amount ingested, and any co-ingestants"
+    ]
+}
