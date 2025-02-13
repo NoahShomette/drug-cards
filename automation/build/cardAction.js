@@ -30,7 +30,6 @@ classesFolder.forEach(function (fileName, index) {
         }
         file = JSON.parse(file);
         verifyClassPropery(file, "name", actualFilePath);
-        verifyClassPropery(file, "skill_level", actualFilePath);
         verifyClassPropery(file, "class", actualFilePath);
         verifyClassPropery(file, "indications", actualFilePath);
         verifyClassPropery(file, "contraindications", actualFilePath);
@@ -40,7 +39,6 @@ classesFolder.forEach(function (fileName, index) {
         verifyClassPropery(file, "protocols", actualFilePath);
 
         cardJsonListing.name = file.name;
-        cardJsonListing.skill_level = file.skill_level;
         cardJsonListing.class = file.class;
         cardJsonListing.indications = file.indications;
         cardJsonListing.contraindications = file.contraindications;

@@ -1,0 +1,50 @@
+{
+    "name": "Diphenhydramine",
+    "alt_names": [
+        "Benadryl"
+    ],
+    "class": [
+        "Anti-Histamine"
+    ],
+    "indications": [
+        "Allergic or anaphylactic reaction",
+        "Dystonic reaction"
+    ],
+    "contraindications": [
+        "Narrow angle glaucoma",
+        "Prostatic hypertrophy or bladder neck obstruction (relative)",
+        "Decreased mental status",
+        "Hypotension"
+    ],
+    "side_effects": [
+        "Sedation",
+        "Hypotension (rare)",
+        "May cause paradoxical excitation in young children"
+    ],
+    "routes": [
+        "{IV/IO}",
+        "{IM}",
+        "{PO}"
+    ],
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": [
+            "1mg/kg maximum of 50mg [PM1]"
+        ],
+        "adult": [
+            "25-50mg"
+        ]
+    },
+    "onset": "Max effect 1-3 hours",
+    "duration": "6-12 hours",
+    "protocols": [
+        "[AM1]",
+        "[PM1]"
+    ],
+    "pearls": [
+        "Diphenhydramine/ steroids should NOT delay initial or repeat Epinephrine administration [PM1] [AM1]",
+        "In Moderate and Severe anaphylaxis, Diphenhydramine may decrease mental status [PM1] [AM1]"
+    ]
+}

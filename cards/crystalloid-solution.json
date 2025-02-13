@@ -3,7 +3,6 @@
     "alt_names": [
         "Lactated Ringer"
     ],
-    "skill_level": "AEMT",
     "class": [
         "Crystalloid"
     ],
@@ -27,14 +26,15 @@
     ],
     "dose": {
         "general": [
-            "TBSA - Total Body Surface Area - severity of burns metric measuring only 2nd and 3rd degree burns",
-            "All ages if TBSA < 20% 0.25 mL/kg * (TBSA%)/hr"
+            "TBSA - Total Body Surface Area - severity of burns metric measuring only 2nd and 3rd degree burns"
         ],
         "pedi": [
+            "All ages if TBSA < 20% 0.25 mL/kg * (TBSA%)/hr",
             "TBSA >= 20% and age <= 5 125 mL/hr",
             "TBSA >= 20% and age 6-14 250 mL/hr"
         ],
         "adult": [
+            "All ages if TBSA < 20% 0.25 mL/kg * (TBSA%)/hr",
             "TBSA >= 20% and age >= 15 500 mL/hr"
         ]
     },

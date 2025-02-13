@@ -79,7 +79,6 @@ function renderCard(drug) {
             drugCardClone.querySelector('#alt-names').append(createElementFromTextWithTemplate((drug.alt_names[i] + extra), "alt-name-template"));
         }
     }
-    drugCardClone.querySelector('#skill-level').innerText = drug.skill_level;
     for (let i = 0; i < drug.class.length; i++) {
         drugCardClone.querySelector('#class').append(createElementFromText(drug.class[i]));
     }
