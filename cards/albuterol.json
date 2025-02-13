@@ -1,0 +1,51 @@
+{
+    "name": "Albuterol",
+    "alt_names": [
+        "Ventolin",
+        "Proventil",
+        "Proair"
+    ],
+    "skill_level": "EMT",
+    "class": [
+        "Beta adrenergic agonist (β2 selective)",
+        "Sympathomimetic",
+        "Bronchodilator"
+    ],
+    "indications": [
+        "Bronchospasm (asthma/reactive airway, anaphylaxis)"
+    ],
+    "side_effects": [
+        "Restlessness and/or apprehension",
+        "Dizziness",
+        "Tachycardia and/or palpitations",
+        "Dysrhythmias",
+        "Tremors"
+    ],
+    "routes": [
+        "{Nebulizer}"
+    ],
+    "dose": {
+        "general": [
+            "For Pedi and Adult can add Ipratropium 0.5mg for a DuoNeb based on patient severity"
+        ],
+        "pedi": [
+            "Asthma - 1.25-2.5mg Albuterol {Nebulizer} repeat as needed x3 [AR7]",
+            "Allergic Reaction - 2.5-5mg Albuterol {Nebulizer} repeat as needed x3 [PM1]"
+        ],
+        "adult": [
+            "Asthma & Allergic Reaction - 2.5-5mg Albuterol {Nebulizer} repeat as needed x3 [AM1] [AR4]"
+        ]
+    },
+    "onset": "5-8 minutes after inhalation",
+    "duration": "2-6 hours after inhalation",
+    "protocols": [
+        "[AM1]",
+        "[AR4]",
+        "[PM1]",
+        "[AR7]"
+    ],
+    "pearls": [
+        "[AR4] Patients may require more than 3 nebulizer treatments, treatments should continue until improvement. Following 3 combination nebulizers (DuoNeb), it is preferable to continue albuterol solely with subsequent treatments as there is no proven benefit to continual use of ipratropium.",
+        "[PC3] Be aware of CHF - Do not assume all wheezing is pulmonary, especially in a cardiac child: avoid albuterol unless strong history of recurrent wheezing secondary to pulmonary etiology (discuss with Medical Control)"
+    ]
+}

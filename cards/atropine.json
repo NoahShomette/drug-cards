@@ -26,16 +26,16 @@
     "routes": [
         "{Autoinjector}"
     ],
-    "interactions": "",
     "dose": {
         "general": [
             ""
         ],
         "pedi": [
-            ""
+            "< 8 YoA {Autoinjector} x1 each 2mg Atropine (combined with 600mg Pralidoxime) [TE8]",
+            "8-14 YoA {Autoinjector} x2 each 2mg Atropine (combined with 600mg Pralidoxime) [TE8]"
         ],
         "adult": [
-            "2mg as part of WMD {Autoinjector} (combined with 600mg Pralidoxime) [TE8]"
+            "> 15 YoA {Autoinjector} x3 each 2mg Atropine (combined with 600mg Pralidoxime) [TE8]"
         ]
     },
     "onset": "Rapid",
@@ -43,9 +43,5 @@
     "protocols": [
         "[TE7]",
         "[TE8]"
-    ],
-    "pearls": [
-        ""
-    ],
-    "overdose-signs": ""
+    ]
 }
