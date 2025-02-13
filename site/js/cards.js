@@ -12,7 +12,7 @@ export async function displayCardLinks() {
             for (let i = 0; i < cards.length; i++) {
                 let drugCard = cards[i];
                 const cardLinkClone = cardLinkTemplate.content.firstElementChild.cloneNode(true);
-                if (active_cards.includes(drugCard.name.toLowerCase())) {
+                if (active_cards.includes(safeDrugName(drugCard.name))) {
                     cardLinkClone.addEventListener("click", hideDrugCard);
                     cardLinkClone.classList.add("active");
                 } else {
@@ -20,7 +20,7 @@ export async function displayCardLinks() {
 
                 }
                 cardLinkClone.querySelector('.card-link').innerText = drugCard.name;
-                cardLinkClone.dataset.drugName = drugCard.name.toLowerCase();
+                cardLinkClone.dataset.drugName = safeDrugName(drugCard.name);
                 drugLinks.append(cardLinkClone);
             }
         });
@@ -66,8 +66,8 @@ function renderCard(drug) {
     const drugCardTemplate = document.querySelector('#drug-card-template');
     const drugCards = document.querySelector('#drug-cards');
     const drugCardClone = drugCardTemplate.content.firstElementChild.cloneNode(true);
-    drugCardClone.dataset.drugCardName = drug.name.toLowerCase();
-    drugCardClone.id = "drug-card-" + drug.name.toLowerCase();
+    drugCardClone.dataset.drugCardName = safeDrugName(drug.name);
+    drugCardClone.id = "drug-card-" + safeDrugName(drug.name);
     drugCardClone.classList.add("active-card");
     drugCardClone.querySelector('#drug-name').innerText = drug.name;
     if (drug.hasOwnProperty("alt_names")) {
@@ -133,11 +133,11 @@ function renderCard(drug) {
 }
 
 function removeRenderedCard(drug) {
-    document.querySelectorAll("#drug-card-" + drug.toLowerCase()
+    document.querySelectorAll("#drug-card-" + safeDrugName(drug)
     ).forEach(function (element) {
         element.remove();
     });
-    removeActiveCard(drug.toLowerCase());
+    removeActiveCard(safeDrugName(drug));
 }
 
 function createElementFromText(text) {
@@ -178,4 +178,8 @@ function sortRenderedCards() {
     console.log(sortedNamedElements);
 
     sortedNamedElements.forEach((el, index) => el.element.style.order = index)
+}
+
+function safeDrugName(drug_name) {
+    return drug_name.replace(/[, ]+/g, '-').toLowerCase()
 }
