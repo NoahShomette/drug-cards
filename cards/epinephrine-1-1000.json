@@ -1,0 +1,68 @@
+{
+    "name": "Epinephrine 1:1000",
+    "alt_names": [
+        "Adrenaline",
+        "EpiPen"
+    ],
+    "class": [
+        "Endogenous Catecholamine",
+        "Alpha/beta adrenergic agonist",
+        "Sympathomimetic"
+    ],
+    "indications": [
+        "Anaphylaxis",
+        "Respiratory distress"
+    ],
+    "contraindications": [
+        "Shock other than anaphylaxis",
+        "Cardiac dilation",
+        "Arrythmias"
+    ],
+    "side_effects": [
+        "Tachycardia and arrhythmias",
+        "Hypertension",
+        "Tremor",
+        "Anxiety",
+        "Headache",
+        "Nausea/vomiting",
+        "Vertigo",
+        "Agitation",
+        "Palpitations",
+        "Ventricular fibrillation",
+        "Shock",
+        "Angina",
+        "Decreased t wave amplitude"
+    ],
+    "routes": [
+        "{IM}",
+        "{Nebulizer}"
+    ],
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": [
+            "Anaphylaxis [PM1] < 30kg 0.15 repeat every 5 minutes if no improvement",
+            ">= 30kg 0.3-0.5mg repeat every 5 minutes if no improvement",
+            "Respiratory Distress [AR7] - 1mg epi + 2ml nasal saline {Nebulizer} repeat x1 if no improvment",
+            "Respiratory Distress [AR7] - 0.01mg/kg epinephrine - max 0.3mg"
+        ],
+        "adult": [
+            "Anaphylaxis [AM1] - 0.3-0.5mg repeat every 5 minutes if no improvement",
+            "COPD/Asthma [AR4] - 1mg epi + 2ml nasal saline {Nebulizer} repeat x1 if no improvment"
+        ]
+    },
+    "onset": "Rapid",
+    "duration": "1-2 hours",
+    "protocols": [
+        "[AM1]",
+        "[AR4]",
+        "[AR7]"
+    ],
+    "pearls": [
+        "[AM1] In Anaphylaxis - IM Epinephrine should be administered in priority before or during attempts at IV or IO access or other drugs",
+        "[AM1] Anaphylaxis unresponsive to repeat doses of IM epinephrine may require IV epinephrine administration by IV push or epinephrine infusion. Contact Medical Control for appropriate dosing",
+        "[AR4] [AR7] COPD/Asthma - Consider epinephrine with failure to improve and/or impending respiratory failure",
+        "[AR7] Bronchiolitis is a viral infection typically affecting infants which results in wheezing which may not respond to beta-agonists.  Consider Epinephrine nebulizer if patient < 18 months and not responding to initial beta-agonist treatment"
+    ]
+}

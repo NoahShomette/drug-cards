@@ -1,0 +1,59 @@
+{
+    "name": "Epinephrine 1:10000",
+    "class": [
+        "Endogenous Catecholamine",
+        "Alpha/beta adrenergic agonist",
+        "Sympathomimetic"
+    ],
+    "indications": [
+        "Cardiac arrest",
+        "Bradycardia",
+        "Shock"
+    ],
+    "contraindications": [
+        "None when indications are present"
+    ],
+    "side_effects": [
+        "Tachycardia and arrhythmias",
+        "Myocardial ischemia/infarction",
+        "Hypertension",
+        "Tremor",
+        "Anxiety",
+        "Headache",
+        "Nausea/vomiting"
+    ],
+    "routes": [
+        "{IV/IO}",
+        "{ETT}"
+    ],
+    "interactions": "Do not mix with sodium bicarbonate as this inactivates epinephrine. ",
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": [
+            "[AO2] 0.01mg/kg {IV/IO} repeat every 3-5 minutes",
+            "[PC1] [PC2] [PC7] 0.01mg/kg max single dose 1mg {IV/IO} repeat every 3-5 minutes",
+            "[PC1] [PC2] [PC7] 0.1mg/kg max single dose 2.5mg {ETT} repeat every 3-5 minutes",
+            ""
+        ],
+        "adult": [
+            "[AC1] 1mg {IV/IO} repeat every 5 minutes",
+            "[AC9] 1mg {IV/IO} repeat every 3-5 minutes"
+        ]
+    },
+    "onset": "Immediate",
+    "duration": "5 minutes",
+    "protocols": [
+        "[AO2]",
+        "[PC1]",
+        "[PC2]",
+        "[PC7]",
+        "[AC1]",
+        "[AC9]"
+    ],
+    "pearls": [
+        "In shock situations, assessment of volume status and volume administration should precede epinephrine administration",
+        "Epinephrine causes a dramatic increase in myocardial oxygen demand and its use in the setting of an acute MI should be restricted to cardiac arrest."
+    ]
+}

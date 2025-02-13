@@ -1,0 +1,47 @@
+{
+    "name": "Glucagon",
+    "class": [
+        "Hormone"
+    ],
+    "indications": [
+        "Hypoglycemia < 69mg/dl and symptomatic with no IV access",
+        "Anaphylaxis in patients on beta-blockers",
+        "Beta blocker toxicity"
+    ],
+    "contraindications": [
+        "None"
+    ],
+    "side_effects": [
+        "Nausea and vomiting",
+        "Hypokalemia",
+        "Hyperglycemia"
+    ],
+    "routes": [
+        "{IV}",
+        "{IO}",
+        "{IM}"
+    ],
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": [
+            "[PM2] - 0.1mg/kg max 1mg {IM} repeat every 15 minutes as needed to keep BGL > 60 mg/dl",
+            "[TE7] - 0.1mg/kg {IV/IO} {IM} may repeat in 15 minutes if needed"
+        ],
+        "adult": [
+            "[AM2] - 1-2mg {IM} repeat in 15 minutes if needed",
+            "[TE7] - 2-4mg {IV/IO} {IM} may repeat in 15 minutes if needed"
+        ]
+    },
+    "onset": "1-5 minutes",
+    "duration": "60-90 minutes",
+    "protocols": [
+        "[TE7]",
+        "[PM2]",
+        "[AM2]"
+    ],
+    "pearls": [
+        "Patients with prolonged hypoglycemia or those who are malnourished may not respond to glucagon."
+    ]
+}
