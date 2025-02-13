@@ -7,7 +7,7 @@ async function loadCards() {
         return res.json();
     }).then(function (cards) {
         for (let i = 0; i < cards.cards.length; i++) {
-            CardIndex.set(cards.cards[i].name.toLowerCase(), i);
+            CardIndex.set(safeDrugName(cards.cards[i].name), i);
         }
         sessionStorage.setItem("card_index", JSON.stringify(Array.from(CardIndex.entries())));
         sessionStorage.setItem("cards", JSON.stringify(cards.cards));
@@ -20,7 +20,7 @@ async function loadCardsIndex() {
         return res.json();
     }).then(function (cards) {
         for (let i = 0; i < cards.cards.length; i++) {
-            CardIndex.set(cards.cards[i].name.toLowerCase(), i);
+            CardIndex.set(safeDrugName(cards.cards[i].name), i);
         }
         sessionStorage.setItem("card_index", JSON.stringify(Array.from(CardIndex.entries())));
         sessionStorage.setItem("cards", JSON.stringify(cards.cards));
@@ -104,4 +104,8 @@ function checkIfReloaded() {
             .map((nav) => nav.type)
             .includes('reload')
 
+}
+
+export function safeDrugName(drug_name) {
+    return drug_name.replace(/[, ]+/g, '-').toLowerCase()
 }

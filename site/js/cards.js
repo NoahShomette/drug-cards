@@ -179,7 +179,3 @@ function sortRenderedCards() {
 
     sortedNamedElements.forEach((el, index) => el.element.style.order = index)
 }
-
-function safeDrugName(drug_name) {
-    return drug_name.replace(/[, ]+/g, '-').toLowerCase()
-}
