@@ -107,5 +107,5 @@ function checkIfReloaded() {
 }
 
 export function safeDrugName(drug_name) {
-    return drug_name.replace(/[, ]+/g, '-').toLowerCase()
+    return drug_name.replace(/[:, ]+/g, '-').toLowerCase()
 }

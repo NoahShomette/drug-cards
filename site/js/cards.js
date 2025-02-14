@@ -1,4 +1,4 @@
-import { CardIndex, getCards, getCardsIndex, } from "./cards-core.js";
+import { CardIndex, getCards, getCardsIndex, safeDrugName } from "./cards-core.js";
 
 export async function displayCardLinks() {
     await getCards().then(async function (cards) {
@@ -62,7 +62,7 @@ export async function showDrugCard(caller) {
 }
 
 function renderCard(drug) {
-    addActiveCard(drug.name.toLowerCase());
+    addActiveCard(safeDrugName(drug.name));
     const drugCardTemplate = document.querySelector('#drug-card-template');
     const drugCards = document.querySelector('#drug-cards');
     const drugCardClone = drugCardTemplate.content.firstElementChild.cloneNode(true);
