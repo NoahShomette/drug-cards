@@ -1,38 +1,56 @@
 {
-    "name": "",
+    "name": "NSAID",
     "alt_names": [
-        "Ketorolac [UP11] different from  ibuprofen iv/io",
-        ""
+        "Ketorolac",
+        "Ibuprofen",
+        "Motrin"
     ],
-    "class": [""],
+    "class": [
+        "Non-Steroidal Anti-inflammatory Drug"
+    ],
     "indications": [
-        "",
-        ""
+        "Mild to moderate pain",
+        "Fever"
     ],
     "contraindications": [
-        ""
+        "Allergy to any NSAID (including aspirin)",
+        "Trauma other than isolated extremity trauma",
+        "Asthma",
+        "Renal insufficiency",
+        "Peptic ulcer disease or GI bleeding",
+        "Pregnancy",
+        "Hypovolemia",
+        "Anticipated major surgery (within 7 days)"
     ],
     "side_effects": [
-        "",
-        ""
+        "GI bleeding",
+        "Nausea/vomiting",
+        "Headache",
+        "Drowsiness",
+        "Abdominal pain",
+        "Dyspepsia",
+        "Diarrhea"
     ],
     "routes": [
-        "{}"
+        "{PO}",
+        "{IV/IO}"
     ],
-    "interactions": "",
     "dose": {
-        "general": [""],
-        "pedi": [""],
-        "adult": [""]
+        "general": [],
+        "pedi": [
+            "[UP10] [UP11] Ibuprofen yoa > 6 months 10mg/kg {PO}"
+        ],
+        "adult": [
+            "[IP10] [UP11] 400-600mg {PO}"
+        ]
     },
-    "onset": "",
-    "duration": "",
+    "onset": "30-60 minutes",
+    "duration": "6-8 hours",
     "protocols": [
-        "[]",
-        "[]"
+        "[UP10]",
+        "[UP11]"
     ],
     "pearls": [
-        ""
-    ],
-    "overdose-signs": ""
+        "NSAIDs should not be used in the setting of environmental heat emergencies"
+    ]
 }

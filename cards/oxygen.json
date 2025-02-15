@@ -1,0 +1,39 @@
+{
+    "name": "Oxygen",
+    "class": [
+        "Gas"
+    ],
+    "indications": [
+        "Patient with dyspnea/shortness of breath, chest pain/discomfort presumed to be of cardiac etiology and/or with a SpO2 of <94%",
+        "Pediatric patient with asthma, reactive airway disease, bronchiolitis, croup and a SpO2 of < 92%",
+        "Cardiac arrest",
+        "Preoxygenation prior to suctioning or intubation",
+        "Sickle cell crisis",
+        "Obstetrical delivery/complications",
+        "Carbon monoxide exposure",
+        "Diving emergencies (pulmonary over pressure syndrome, arterial gas embolism, decompression sickness, nitrogen narcosis)"
+    ],
+    "contraindications": [
+        "Paraquat toxicity (may potentiate harmful superoxide formation)",
+        "Bleomycin use (may increase injury associated with pulmonary toxicity)"
+    ],
+    "side_effects": [
+        "Hyperoxic injury",
+        "Retinopathy of prematurity"
+    ],
+    "routes": [
+        "{PO}"
+    ],
+    "dose": {
+        "general": [
+            "CPAP",
+            "Nasal Cannula - 1-6 lpm",
+            "Non-rebreather - 10-15 lpm",
+            "Bag Valve Mask - 15 lpm",
+            "Nebulizer - 6-8 lpm"
+        ],
+        "pedi": [],
+        "adult": []
+    },
+    "protocols": []
+}

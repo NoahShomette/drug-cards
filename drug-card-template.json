@@ -4,7 +4,9 @@
         "",
         ""
     ],
-    "class": [""],
+    "class": [
+        ""
+    ],
     "indications": [
         "",
         ""
@@ -21,9 +23,15 @@
     ],
     "interactions": "",
     "dose": {
-        "general": [""],
-        "pedi": [""],
-        "adult": [""]
+        "general": [
+            ""
+        ],
+        "pedi": [
+            ""
+        ],
+        "adult": [
+            ""
+        ]
     },
     "onset": "",
     "duration": "",
