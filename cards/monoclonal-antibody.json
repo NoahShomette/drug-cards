@@ -1,0 +1,40 @@
+{
+    "name": "Monoclonal Antibody",
+    "alt_names": [
+        "Casirivimab/Imdevimab",
+        "REGEN-COV"
+    ],
+    "class": [
+        "Monoclonal Antibody"
+    ],
+    "indications": [
+        "Adult or pediatric (>12 years of age and weighing at least 40 kg) + not vaccinated/immunosuppressed + exposed to an individual with SARS-COV2/high risk of exposure to"
+    ],
+    "contraindications": [
+        "Hospitalization due to COVID-19",
+        "On oxygen therapy"
+    ],
+    "side_effects": [],
+    "routes": [
+        "{IV}",
+        "{SQ}"
+    ],
+    "dose": {
+        "general": [
+            "Use adult dosage for all patients >12 years of age and weighing at least 40 kg"
+        ],
+        "pedi": [
+            "Not indicated for patients < 12 yoa and < 40kg. Greater than use adult dosage."
+        ],
+        "adult": [
+            "{IV} Casirivimab 600 mg and Imdevimab 600 mg in 100mL NS - Infuse IV piggyback in a NS line at KVO  over 21 minutes (310 mL/hr) Infuse through NS primed micron filter 0.20 or 0.22 size",
+            "{SQ} Casirivimab 600 mg (2.5 mL) in 2 separate syringes and Imdevimab 600 mg (2.5 mL) in 2 separate syringes Administer 4 SQ injections in separate muscle areas. Avoid the waistline and 5 cm periumbilically"
+        ]
+    },
+    "protocols": [
+        "[SC5]"
+    ],
+    "pearls": [
+        "For treatment of symptomatic COVID-19, the intravenous route is preferred under the EUA, but if there would be a delay in providing IV administration, subcutaneous administration is acceptable."
+    ]
+}

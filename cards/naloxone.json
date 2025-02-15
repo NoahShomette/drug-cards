@@ -1,0 +1,45 @@
+{
+    "name": "Narcan",
+    "alt_names": [
+        "Naloxone"
+    ],
+    "class": [
+        "Opioid antagonist"
+    ],
+    "indications": [
+        "Opioid related respiratory depression"
+    ],
+    "contraindications": [
+        "None"
+    ],
+    "side_effects": [
+        "Acute withdrawal syndrome",
+        "Vomiting",
+        "Pulmonary edema (rare)"
+    ],
+    "routes": [
+        "{IV/IO}",
+        "{IM}",
+        "{IN}",
+        "{ETT}"
+    ],
+    "dose": {
+        "general": [
+            "Titrate to adequate ventilation and oxygenation. NOT GIVEN TO RESTORE CONSCIOUSNESS"
+        ],
+        "pedi": [
+            "[TE7] 0.1mg/kg "
+        ],
+        "adult": [
+            "[TE7] 0.4-2mg"
+        ]
+    },
+    "onset": "Within minutes",
+    "duration": "Up to two hours depending on substance and amount consumed",
+    "protocols": [
+        "[TE7]"
+    ],
+    "pearls": [
+        "If naloxone is administered to a patient with no opioid on board, miossis (pupillary constriction) may occur"
+    ]
+}

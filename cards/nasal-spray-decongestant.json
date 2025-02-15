@@ -1,0 +1,40 @@
+{
+    "name": "Nasal Spray Decongestant",
+    "alt_names": [
+        "Oxymetazoline",
+        "Afrin",
+        "Zicam"
+    ],
+    "class": [
+        "Adrenergic receptor agonist (α1 and partial α2)"
+    ],
+    "indications": [
+        "Epistaxis (Nose bleed)"
+    ],
+    "contraindications": [
+        "Hypertension (DBP >100 mmHg)",
+        "Coronary artery disease",
+        "Patient taking monoamine oxidase (MAO) inhibitor"
+    ],
+    "side_effects": [
+        "Hypertension",
+        "Dizziness",
+        "Headache",
+        "Cardiac irregularities (palpitations, tachycardia)"
+    ],
+    "routes": [
+        "{IN}"
+    ],
+    "dose": {
+        "general": [],
+        "pedi": [
+            "2 sprays to nostril followed by direct pressure"
+        ],
+        "adult": [
+            "2 sprays to nostril followed by direct pressure"
+        ]
+    },
+    "protocols": [
+        "[UP9]"
+    ]
+}

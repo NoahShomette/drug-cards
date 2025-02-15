@@ -1,0 +1,51 @@
+{
+    "name": "Ipratropium",
+    "alt_names": [
+        "Atrovent"
+    ],
+    "class": [
+        "Anticholinergic"
+    ],
+    "contraindications": [
+        "Benign prostatic hypertrophy (relative)",
+        "Bladder neck obstruction (relative)"
+    ],
+    "indications": [
+        "Bronchospasm associated with asthma or COPD"
+    ],
+    "side_effects": [
+        "Cough",
+        "Throat irritation",
+        "Headache",
+        "Dry mouth",
+        "Urinary retention"
+    ],
+    "routes": [
+        "{Nebulizer}"
+    ],
+    "dose": {
+        "general": [
+        ],
+        "pedi": [
+            "Asthma - 1.25-2.5mg Albuterol +/- Ipratropium 0.5 mg (DuoNeb) {Nebulizer} repeat as needed x3 [AR7]",
+            "Allergic Reaction - 2.5-5mg Albuterol +/- Ipratropium 0.5 mg (DuoNeb) {Nebulizer} repeat as needed x3 [PM1]"
+        ],
+        "adult": [
+            "Asthma & Allergic Reaction - 2.5-5mg Albuterol +/- Ipratropium 0.5 mg (DuoNeb) {Nebulizer} repeat as needed x3 [AM1] [AR4]"
+        ]
+    },
+    "onset": "Within 15 minutes",
+    "duration": "3-5 hours",
+    "protocols": [
+        "[AM1]",
+        "[AR4]",
+        "[PM1]",
+        "[AR7]"
+    ],
+    "pearls": [
+        "[AR4] Patients may require more than 3 nebulizer treatments, treatments should continue until improvement. Following 3 combination nebulizers (DuoNeb), it is preferable to continue albuterol solely with subsequent treatments as there is no proven benefit to continual use of ipratropium.",
+        "Due to the risk of inadvertent topical administration (of the nebulization preparation), ipratropium should be used with caution in patients with narrowangle glaucoma",
+        "Metered-dose-inhaler ipratropium preparations may include allergens contraindicating use in patients with soy or nut allergies.",
+        "Paradoxical bronchospasm may occur in a small percentage of patients who receive ipratropium. A proposed etiology is attributed to other compounds in the ipratropium preparation. If paradoxical bronchospasm (evidenced by significantly increased and severe bronchospasm following administration) is suspected, discontinue use."
+    ]
+}

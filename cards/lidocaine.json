@@ -1,0 +1,40 @@
+{
+    "name": "Lidocaine 2%",
+    "class": [
+        "Antiarrhythmic"
+    ],
+    "indications": [
+        "{IO} infusion-related pain prior to flush"
+    ],
+    "contraindications": [
+        "Known hypersensitivity or allergy to any local anesthetic in the amide class",
+        "AV block > 1st degree in the absence of a pacemaker",
+        "Idioventricular escape rhythm in the absence of a pacemaker",
+        "Stokes-Adams syndrome",
+        "Wolff-Parkinson-White (WPW) syndrome"
+    ],
+    "side_effects": [
+        "Drowsiness",
+        "Paresthesia",
+        "Slurred speech",
+        "Nystagmus (early sign of toxicity)",
+        "Seizures (severe toxicity)"
+    ],
+    "routes": [
+        "{IO}"
+    ],
+    "dose": {
+        "general": [],
+        "pedi": [
+            "0.5mg/kg as needed up to 40mg max"
+        ],
+        "adult": [
+            "20-50mg (1-2.5mL) as needed up to 60mg (3mL)"
+        ]
+    },
+    "onset": "1-5 minutes",
+    "duration": "Variable",
+    "protocols": [
+        "[PAS-11]"
+    ]
+}

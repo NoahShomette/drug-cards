@@ -1,0 +1,60 @@
+{
+    "name": "Magnesium Sulfate",
+    "class": [
+        "Electrolyte",
+        "Antidysrhythmic"
+    ],
+    "indications": [
+        "Polymorphic ventricular tachycardia associated with a prolonged QTI (> 500 msec) (Torsade's de pointes)",
+        "Cardiac arrest with suspected hypomagnesaemia",
+        "Asthma",
+        "Preterm labor",
+        "Seizures during the third trimester of pregnancy or in the postpartum patient"
+    ],
+    "contraindications": [
+        "Myocardial damage",
+        "Diabetic coma",
+        "Heart block",
+        "Hypermagnesemia",
+        "Hypercalcemia"
+    ],
+    "side_effects": [
+        "Hypotension",
+        "Bradycardia/conduction disturbance (administer with caution in patients with bradycardia)",
+        "Respiratory depression",
+        "Flushing"
+    ],
+    "routes": [
+        "{IV/IO}"
+    ],
+    "dose": {
+        "general": [
+        ],
+        "pedi": [
+            "[AR7] 40 mg/kg {IV/IO} max 2g infuse over 10-20 minutes"
+        ],
+        "adult": [
+            "[AC8] 2g {IV/IO} may repeat x1 - max 4g",
+            "[AC9] 2g {IV/IO} over 2-3 minutes may repeat x1",
+            "[AO3] 2-4g {IV/IO} or [AO3] 5-10g {IM}",
+            "[AR4] 2g {IV/IO} infuse over 10-20 minutes"
+        ]
+    },
+    "onset": "Immediate",
+    "duration": "3-4 hours",
+    "protocols": [
+        "[AC8]",
+        "[AC9]",
+        "[AO3]",
+        "[AR4]"
+    ],
+    "pearls": [
+        "Hypotension, bradycardia, and conduction disturbances may occur if administered too rapidly. Administer with caution in patients with bradycardia",
+        "Toxicity is associated with CNS and neuromuscular depression. A decrease in deep tendon reflexes (DTRs) is an early sign of toxicity and may indicate impending respiratory depression",
+        "The administration of calcium reverses respiratory depression associated with magnesium toxicity",
+        "Repeat doses should be administered cautiously in patients with decreased renal function",
+        "[AO3] Magnesium Sulfate should be administered as quickly as possible. May cause hypotension and decreased respiratory drive, but more likely in doses higher than 6 gm",
+        "[AR4] Consider Magnesium Sulfate with no improvement and/ or impending respiratory failure. Likely more effective with asthmatic exacerbation and less so with COPD exacerbation",
+        "[PR7] Consider Magnesium Sulfate with impending respiratory failure and/ or no improvement"
+    ]
+}

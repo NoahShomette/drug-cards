@@ -1,10 +1,10 @@
 {
-    "name": "Calcium Paste",
+    "name": "TB Skin Test",
     "class": [
-        "Unknown"
+        "Immunizations"
     ],
     "indications": [
-        "No authorized usages according to State and Iredell county protocols"
+        "No authorized EMS usages according to State and Iredell county protocols"
     ],
     "contraindications": [
         "Not available"
@@ -17,7 +17,7 @@
     ],
     "dose": {
         "general": [
-            "No information on dosages per State and Iredell county protocols"
+            "No information on EMS dosages per State and Iredell county protocols"
         ],
         "pedi": [
             ""
@@ -26,6 +26,9 @@
             ""
         ]
     },
+    "pearls": [
+        "Administration of immunizations and TB skin tests are not limited to public health initiatives"
+    ],
     "protocols": [
         "Not available"
     ]

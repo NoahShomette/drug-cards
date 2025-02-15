@@ -63,6 +63,7 @@
         "[AM1] In Anaphylaxis - IM Epinephrine should be administered in priority before or during attempts at IV or IO access or other drugs",
         "[AM1] Anaphylaxis unresponsive to repeat doses of IM epinephrine may require IV epinephrine administration by IV push or epinephrine infusion. Contact Medical Control for appropriate dosing",
         "[AR4] [AR7] COPD/Asthma - Consider epinephrine with failure to improve and/or impending respiratory failure",
-        "[AR7] Bronchiolitis is a viral infection typically affecting infants which results in wheezing which may not respond to beta-agonists.  Consider Epinephrine nebulizer if patient < 18 months and not responding to initial beta-agonist treatment"
+        "[AR7] Bronchiolitis is a viral infection typically affecting infants which results in wheezing which may not respond to beta-agonists.  Consider Epinephrine nebulizer if patient < 18 months and not responding to initial beta-agonist treatment",
+        "AEMTs are not permitted to administer Epinephrine as a vasopressor to support blood pressure. "
     ]
 }
