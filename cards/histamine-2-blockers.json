@@ -1,0 +1,25 @@
+{
+    "name": "Histamine 2 Blockers",
+    "class": ["H2 Blocker"],
+    "indications": [
+        "[AM1] [PM1] Allergic Reaction"
+    ],
+    "contraindications": [
+        "Not available"
+    ],
+    "side_effects": [
+        "Not available"
+    ],
+    "routes": [
+        "Not available"
+    ],
+    "dose": {
+        "general": ["No information on dosages per State and Iredell county protocols"],
+        "pedi": [""],
+        "adult": [""]
+    },
+    "protocols": [
+        "[AM1]",
+        "[PM1]"
+    ]
+}

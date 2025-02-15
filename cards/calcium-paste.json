@@ -1,0 +1,24 @@
+{
+    "name": "Calcium Paste",
+    "class": ["Unknown"],
+    "indications": [
+        "No authorized usages according to State and Iredell county protocols"
+    ],
+    "contraindications": [
+        "Not available"
+    ],
+    "side_effects": [
+        "Not available"
+    ],
+    "routes": [
+        "Not available"
+    ],
+    "dose": {
+        "general": ["No information on dosages per State and Iredell county protocols"],
+        "pedi": [""],
+        "adult": [""]
+    },
+    "protocols": [
+        "Not available"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Dextrose",
+    "alt_names": [
+        "D50%",
+        "D25%",
+        "D10%",
+        "D5W"
+    ],
+    "class": [
+        "Carbohydrate"
+    ],
+    "indications": [
+        "Hypoglycemia",
+        "Altered level of consciousness",
+        "Coma of unknown origin",
+        "Seizure of unknown origin"
+    ],
+    "contraindications": [
+        "Intracranial or intraspinal hemorrhage",
+        "Increased intracranial pressure",
+        "Known or suspected stroke in the absence of hypoglycemia",
+        "Dehydrated patients with delirium"
+    ],
+    "side_effects": [
+        "Local skin irritation",
+        "Thrombophlebitis",
+        "Extravasation with subsequent tissue necrosis",
+        "Hyperglycemia",
+        "Osmotic diuresis"
+    ],
+    "routes": [
+        "{IV}",
+        "{IO}"
+    ],
+    "interactions": "",
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": [
+            "[AO2] Neonate - BGL < 40 D10 2ml/kg {IV/IO} until BGL >= 40",
+            "[PM2] < 1 yoa D10 5mL/kg {IV/IO} repeat as needed",
+            "[PM2] 1-2 yoa D25 2mL/kg {IV/IO} repeat as needed",
+            "[PM2] > 2 yoa D50 1mL/kg max 25g {IV/IO} repeat as needed"
+        ],
+        "adult": [
+            "[AM2] D10 125-250mL",
+            "[AM2] D50 12.5-25gm may repeat until BGL >= 80"
+        ]
+    },
+    "onset": "1 minutes",
+    "duration": "Depends on the degree of hypoglycemia",
+    "protocols": [
+        "[AM2]",
+        "[PM2]",
+        "[AO2]"
+    ],
+    "pearls": [
+        "The patency and function of the IV line should be verified prior to administration. D50% should be administered slow IV push",
+        "When glucose is administered to patients with a known or suspected history of alcohol abuse or malnutrition, thiamine should also be administered (see thiamine for more information)",
+        "Because higher concentration solutions are hypertonic and their extravasation my lead to tissue injury, D10% is the preferred preparation for the management of hypoglycemia in the field",
+        "[PM2] [AM2] In extreme circumstances with no IV and no response to glucagon, Dextrose 50 % can be administered rectally. Contact medical control for advice.",
+        "[PM2] Can dilute D50 into D10 by mixing with Normal Saline with a 4 normal saline to 1 D50 ratio (1mL D50 with 4mL NS)",
+        "[PM2] Can dilute D50 into D25 by mixing with Normal Saline with a 1-1 ration (1mL D50 with 1mL NS)"
+    ]
+}
