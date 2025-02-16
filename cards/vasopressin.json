@@ -1,0 +1,55 @@
+{
+    "name": "Vasopressin",
+    "class": [
+        "Pituitary hormone",
+        "Antidiuretic hormone"
+    ],
+    "indications": [
+        "Diabetes insipidus",
+        "Variceal bleeding",
+        "Postoperative abdominal distention",
+        "Abdominal x-rays",
+        "Low blood pressure",
+        "Septic shock"
+    ],
+    "contraindications": [
+        "Chronic nephritis"
+    ],
+    "side_effects": [
+        "Tremor",
+        "Headache",
+        "Vertigo",
+        "Angina",
+        "Nausea/vomiting",
+        "Cramps",
+        "Vasoconstriction",
+        "Arrhythmias",
+        "Cardiac arrest",
+        "Diaphoresis"
+    ],
+    "routes": [
+        "{}"
+    ],
+    "interactions": "",
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": [
+            ""
+        ],
+        "adult": [
+            ""
+        ]
+    },
+    "onset": "15 minutes",
+    "duration": "2-8 hours",
+    "protocols": [
+        "[]",
+        "[]"
+    ],
+    "pearls": [
+        ""
+    ],
+    "overdose-signs": ""
+}

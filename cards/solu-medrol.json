@@ -1,0 +1,56 @@
+{
+    "name": "Solu-Medrol",
+    "alt_names": [
+        "Methylprednisolone",
+        "Solu-Medrol"
+    ],
+    "class": [
+        "Steroid (synthetic glucocorticoid)"
+    ],
+    "indications": [
+        "Adrenal insufficiency",
+        "Acute bronchospasm associated with asthma, COPD exacerbation, or allergic and anaphylactic reactions"
+    ],
+    "contraindications": [
+        "Known hypersensitivity to any steroid",
+        "Systemic fungal infections"
+    ],
+    "side_effects": [
+        "Hyperglycemia",
+        "Immunosuppression",
+        "Nausea/vomiting",
+        "Edema",
+        "Sodium/fluid retention",
+        "Alkalosis",
+        "Headache",
+        "Hypertension"
+    ],
+    "routes": [
+        "{}"
+    ],
+    "interactions": "",
+    "dose": {
+        "general": [
+            ""
+        ],
+        "pedi": [
+            "[PM1] [PM3] [AR7] 2mg/kg max 125mg {IV/IO} {IM}"
+        ],
+        "adult": [
+            "[AM1] [AM5] [AR4] 125mg {IV/IO} {IM}"
+        ]
+    },
+    "onset": "1-2 hours",
+    "duration": "8-24 hours",
+    "protocols": [
+        "[AM1]",
+        "[AM5]",
+        "[AR4",
+        "[PM1]",
+        "[PM3]",
+        "[AR7]"
+    ],
+    "pearls": [
+        "[PM1] [AM1] Diphenhydramine / steroids should NOT delay initial or repeat Epinephrine administration"
+    ]
+}

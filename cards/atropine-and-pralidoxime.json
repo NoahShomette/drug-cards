@@ -1,26 +1,20 @@
 {
     "name": "Atropine & Pralidoxime",
+    "alt_names": [
+        "DuoDote"
+    ],
     "class": [
-        "Anticholinergic (more specifically, antimuscarinic)"
+        "Antidote"
     ],
     "indications": [
-        "Organophosphate/nerve agent toxicity"
+        "Exposure to organophosphorus nerve agents and pesticides"
     ],
     "contraindications": [
-        "Life-saving intervention - no true contraindications"
+        "None in the presence of life-threatening organophosphorus poisoning"
     ],
     "side_effects": [
-        "Tachycardia (may worsen myocardial ischemia)",
-        "Blurred vision (high doses)",
-        "Urinary retention",
-        "Paradoxical bradycardia",
-        "Palpitations",
-        "Dysrhythmias",
-        "Headache",
-        "Dizziness",
-        "Anticholinergic effects",
-        "Nausea/vomiting",
-        "Flushed, hot, dry skin"
+        "Temporary hypertension caused by pralidoxime.",
+        "Signs of atropinization may occur earlier when both drugs given together"
     ],
     "routes": [
         "{Autoinjector}"

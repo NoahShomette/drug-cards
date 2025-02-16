@@ -1,7 +1,8 @@
 {
     "name": "Nitrous Oxide",
     "class": [
-        "Unknown"
+        "Gaseous Analgesic",
+        "Anesthetic"
     ],
     "indications": [
         "No authorized usages according to State and Iredell county protocols"
@@ -19,12 +20,9 @@
         "general": [
             "No information on dosages per State and Iredell county protocols"
         ],
-        "pedi": [
-        ],
-        "adult": [
-        ]
+        "pedi": [],
+        "adult": []
     },
     "protocols": [
-        "Not available"
     ]
 }

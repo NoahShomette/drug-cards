@@ -1,0 +1,52 @@
+{
+    "name": "Tranexamic Acid",
+    "alt_names": [
+        "TXA"
+    ],
+    "class": [
+        "Anti-fibrinolytic"
+    ],
+    "indications": [
+        "Patients with blunt or penetrating trauma (including extremity trauma) with signs of significant hemorrhage or who are considered in paramedic judgment to be at high risk of significant hemorrhage (external or internal)",
+        "[TB6] Adult criteria - SBP <= 90 mm Hg + HR >= 110 BPM <OR> SBP <= 70 mm Hg <OR> age >= 65 with SBP < 100mmHg + HR > 100",
+        "[TB6] Ped criteria - SBP < (70 + (2 * age))",
+        "[AO1] Administer when postpartum hemorrhage is associated with signs and symptoms of shock. CONTRAINDICATED where birth occurs > 3 hours prior to EMS arrival",
+        "[AO3] Vaginal hemorrhage unrelated to pregnancy, administer with signs and symptoms of shock"
+    ],
+    "contraindications": [
+        "Time elapsed from injury >3 hours",
+        "Age <16 years",
+        "Isolated closed head injury",
+        "Pregnancy >= 24 weeks",
+        "Patient who has or will receive prothrombin complex concentrate (PCCs), or factor VIIa complex concentrates",
+        "[AO1] Birth occuring > 3 hours prior to EMS arrival"
+    ],
+    "side_effects": [
+        "Hypotension (if given IV push)",
+        "Nausea/vomiting",
+        "Diarrhea"
+    ],
+    "routes": [
+        "{IV/IO}"
+    ],
+    "dose": {
+        "general": [],
+        "pedi": [
+            "[TB6] dosage per local trauma guidelines over 10 minutes max 1gm {IV/IO}"
+        ],
+        "adult": [
+            "[AO3] [TB6] 1-2gm over 10 minutes {IV/IO}"
+        ]
+    },
+    "onset": "5-15 minutes",
+    "duration": "3 hours",
+    "protocols": [
+        "[TB6]",
+        "[AO3]",
+        "[AO1]"
+    ],
+    "pearls": [
+        "A second (maintenance) dose must be given over 8 hours. EMS providers must clearly communicate to the receiving facility staff that a loading does was administered in the field",
+        "[TB6] Infuse during transport only unless patient is entrapped and can be administered without slowing extrication. Transport patient who receives TXA to Trauma Center"
+    ]
+}

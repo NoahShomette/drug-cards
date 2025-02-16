@@ -1,0 +1,30 @@
+{
+    "name": "Topical Hemostatic Agent",
+    "alt_names": [
+        "QuikClot"
+    ],
+    "class": [
+        "Hemostatic Agent"
+    ],
+    "indications": [
+        "Serious hemorrhage that can not be controlled by other means",
+        ""
+    ],
+    "contraindications": [
+        "Wounds involving open thoracic or abdominal cavities"
+    ],
+    "side_effects": [],
+    "routes": [
+        "{Topical}"
+    ],
+    "dose": {
+        "general": [
+            "[WTP5] Follow manufacturers instructions and then supplement with direct pressure and standard hemorrhage control techniques"
+        ],
+        "pedi": [],
+        "adult": []
+    },
+    "protocols": [
+        "[WTP5]"
+    ]
+}

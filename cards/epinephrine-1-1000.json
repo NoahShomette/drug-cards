@@ -48,7 +48,7 @@
             "Respiratory Distress [AR7] - 0.01mg/kg epinephrine - max 0.3mg"
         ],
         "adult": [
-            "Anaphylaxis [AM1] - 0.3-0.5mg repeat every 5 minutes if no improvement",
+            "Anaphylaxis [AM1] [AR4] - 0.3-0.5mg - [AM1] Repeat every 5 minutes if no improvement",
             "COPD/Asthma [AR4] - 1mg epi + 2ml nasal saline {Nebulizer} repeat x1 if no improvment"
         ]
     },

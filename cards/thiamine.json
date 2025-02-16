@@ -1,0 +1,30 @@
+{
+    "name": "Thiamine",
+    "class": [
+        "Vitamin (B1)"
+    ],
+    "indications": [
+        "Co-administration with glucose to malnourished patients or patients with a history of alcohol abuse",
+        "Coma of unknown origin",
+        "Delirium tremens",
+        "Beriberi (rare)",
+        "Wernicke encephalopathy"
+    ],
+    "contraindications": [
+        "None"
+    ],
+    "side_effects": [
+        "Hypotension if injected too rapidly or if dose is larger than recommended"
+    ],
+    "routes": [],
+    "dose": {
+        "general": [
+            "No dosages according to State and Iredell county protocols"
+        ],
+        "pedi": [],
+        "adult": []
+    },
+    "onset": "Rapid",
+    "duration": "Depends on the degree of deficiency",
+    "protocols": []
+}
