@@ -34,6 +34,11 @@
             Drug Name</div>
     </template>
 
+    <template id="class-template">
+        <div class="pe-2">
+            Drug Name</div>
+    </template>
+
     <template id="drug-card-template">
         <div class="drug-card my-4 my-md-0 mb-md-4 mb-lg-4 my-lg-0 mb-1 mt-1 bg-dark-subtle p-3 rounded w-100"
             style="break-after:page">
@@ -60,30 +65,32 @@
                 </div>
             </div>
 
-            <div class="pt-3">
+            <div class="pt-3 d-flex flex-row">
                 <h5><strong>Side Effects</strong></h5>
-                <div id="side-effects" class="ps-3"></div>
+                <div id="side-effects" class="ps-3 d-flex flex-row"></div>
             </div>
             <div id="interactions-holder" class="pt-3">
                 <h5><strong>Interactions</strong></h5>
                 <div id="interactions" class="ps-3"></div>
             </div>
             <div class="pt-1">
-                <h5><strong>Dose</strong></h5>
+                <div class="d-flex flex-row align-items-center">
+                    <h5><strong>Dose</strong></h5>
+                    <div id="routes" class="ps-3 d-flex flex-row"></div>
+                </div>
                 <div id="dose" class="ps-3">
                     <div id="dose-general-holder">
-                        <h5><strong>General</strong></h5>
-                        <div id="dose-general" class="ps-3"></div>
+                        <div id="dose-general"></div>
                     </div>
                     <div id="dose-adult-holder">
 
                         <h5 class=""><strong>Adult</strong></h5>
-                        <div id="dose-adult" class="ps-3"></div>
+                        <div id="dose-adult"></div>
                     </div>
 
                     <div id="dose-pedi-holder">
                         <h5 class=""><strong>Pediatric</strong></h5>
-                        <div id="dose-pedi" class="ps-3"></div>
+                        <div id="dose-pedi"></div>
                     </div>
                 </div>
             </div>
@@ -92,10 +99,6 @@
             <div id="protocols-holder" class="pt-3 d-flex flex-wrap">
                 <h5><strong>Protocols</strong></h5>
                 <div id="protocols" class="ps-3 d-flex flex-wrap"></div>
-            </div>
-            <div id="routes-holder" class="pt-3 d-flex flex-wrap">
-                <h5><strong>Routes</strong></h5>
-                <div id="routes" class="ps-3 d-flex flex-row"></div>
             </div>
             <div id="pearls-holder" class="pt-3 no-print">
                 <h5><strong>Pearls</strong></h5>

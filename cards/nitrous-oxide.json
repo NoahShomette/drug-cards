@@ -28,10 +28,12 @@
     "routes": [],
     "dose": {
         "general": [
-            "No information on dosages per State and Iredell county protocols"
+            "No authorized dosages per State and Iredell county protocols"
         ],
         "pedi": [],
         "adult": []
     },
-    "protocols": []
+    "protocols": [
+        "No relevant state protocols"
+    ]
 }

@@ -80,7 +80,11 @@ function renderCard(drug) {
         }
     }
     for (let i = 0; i < drug.class.length; i++) {
-        drugCardClone.querySelector('#class').append(createElementFromText(drug.class[i]));
+        let extra = "";
+        if (i < drug.class.length - 1) {
+            extra = ","
+        }
+        drugCardClone.querySelector('#class').append(createElementFromTextWithTemplate((drug.class[i] + extra), "class-template"));
     }
     drugCardClone.querySelector('#indications').append(makeIndicationsLike(drug.indications));
     drugCardClone.querySelector('#contraindications').append(makeIndicationsLike(drug.contraindications));
@@ -90,7 +94,7 @@ function renderCard(drug) {
             drugCardClone.querySelector('#routes').append(createElementFromText(drug.routes[i]));
         }
     } else {
-        drugCardClone.querySelector('#routes-holder').classList.add("d-none");
+        drugCardClone.querySelector('#routes').classList.add("d-none");
     }
     if (drug.hasOwnProperty("interactions")) {
         drugCardClone.querySelector('#interactions').innerText = drug.interactions;
@@ -99,9 +103,7 @@ function renderCard(drug) {
     }
     if (drug.dose.hasOwnProperty("general")) {
         if (drug.dose.general.length > 0) {
-            for (let i = 0; i < drug.dose.general.length; i++) {
-                drugCardClone.querySelector('#dose-general').append(createElementFromText(drug.dose.general[i]));
-            }
+            drugCardClone.querySelector('#dose-general').append(makeIndicationsLike(drug.dose.general));
         } else {
             drugCardClone.querySelector('#dose-general-holder').classList.add("d-none");
         }
@@ -110,10 +112,7 @@ function renderCard(drug) {
     }
     if (drug.dose.hasOwnProperty("pedi")) {
         if (drug.dose.pedi.length > 0) {
-
-            for (let i = 0; i < drug.dose.pedi.length; i++) {
-                drugCardClone.querySelector('#dose-pedi').append(createElementFromText(drug.dose.pedi[i]));
-            }
+            drugCardClone.querySelector('#dose-pedi').append(makeIndicationsLike(drug.dose.pedi));
         } else {
             drugCardClone.querySelector('#dose-pedi-holder').classList.add("d-none");
         }
@@ -122,10 +121,7 @@ function renderCard(drug) {
     }
     if (drug.dose.hasOwnProperty("adult")) {
         if (drug.dose.adult.length > 0) {
-
-            for (let i = 0; i < drug.dose.adult.length; i++) {
-                drugCardClone.querySelector('#dose-adult').append(createElementFromText(drug.dose.adult[i]));
-            }
+            drugCardClone.querySelector('#dose-adult').append(makeIndicationsLike(drug.dose.adult));
         } else {
             drugCardClone.querySelector('#dose-adult-holder').classList.add("d-none");
         }

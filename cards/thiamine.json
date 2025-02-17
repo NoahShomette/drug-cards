@@ -26,5 +26,7 @@
     },
     "onset": "Rapid",
     "duration": "Depends on the degree of deficiency",
-    "protocols": []
+    "protocols": [
+        "No relevant state protocols"
+    ]
 }

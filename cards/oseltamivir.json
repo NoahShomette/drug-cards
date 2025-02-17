@@ -4,8 +4,7 @@
         "Antiviral"
     ],
     "indications": [
-        "Acute uncomplicated illness due to influenza infection in patients 2 weeks of age and older",
-        "No authorized EMS usages according to State and Iredell county protocols"
+        "Acute uncomplicated illness due to influenza infection in patients 2 weeks of age and older"
     ],
     "contraindications": [
         "None"
@@ -24,5 +23,7 @@
         "pedi": [],
         "adult": []
     },
-    "protocols": []
+    "protocols": [
+        "No relevant state protocols"
+    ]
 }

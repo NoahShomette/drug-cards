@@ -28,8 +28,7 @@
         "{IV/IO}"
     ],
     "dose": {
-        "general": [
-        ],
+        "general": [],
         "pedi": [
             "[AR7] 40 mg/kg {IV/IO} max 2g infuse over 10-20 minutes"
         ],

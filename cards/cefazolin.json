@@ -25,7 +25,6 @@
     "routes": [
         "{IV/IO}"
     ],
-    "interactions": "Take caution to avoid potential overdose - many OTC drugs contain acetaminophen",
     "dose": {
         "general": [
             "Titrate over 10 minutes [TB4]"
