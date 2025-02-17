@@ -28,14 +28,11 @@
     ],
     "interactions": "Do not mix with sodium bicarbonate as this inactivates epinephrine. ",
     "dose": {
-        "general": [
-            ""
-        ],
+        "general": [],
         "pedi": [
             "[AO2] 0.01mg/kg {IV/IO} repeat every 3-5 minutes",
             "[PC1] [PC2] [PC7] 0.01mg/kg max single dose 1mg {IV/IO} repeat every 3-5 minutes",
-            "[PC1] [PC2] [PC7] 0.1mg/kg max single dose 2.5mg {ETT} repeat every 3-5 minutes",
-            ""
+            "[PC1] [PC2] [PC7] 0.1mg/kg max single dose 2.5mg {ETT} repeat every 3-5 minutes"
         ],
         "adult": [
             "[AC1] 1mg {IV/IO} repeat every 5 minutes",

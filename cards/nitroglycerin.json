@@ -29,11 +29,9 @@
         "{Nitro Paste}"
     ],
     "dose": {
-        "general": [
-            ""
-        ],
+        "general": [],
         "pedi": [
-            ""
+            "[PC3] Dose determined after consultation with medical Control"
         ],
         "adult": [
             "[AC4] [AC5] [AC15] {Sublingual} 0.3-0.4mg repeat every 5 minutes as needed",

@@ -1,10 +1,11 @@
 {
     "name": "Calcium Paste",
     "class": [
-        "Unknown"
+        "Electrolyte",
+        "Antidote"
     ],
     "indications": [
-        "No authorized usages according to State and Iredell county protocols"
+        "Hydrofluoric acid burn"
     ],
     "contraindications": [
         "Not available"
@@ -19,14 +20,8 @@
         "general": [
             "No information on dosages per State and Iredell county protocols"
         ],
-        "pedi": [
-            ""
-        ],
-        "adult": [
-            ""
-        ]
+        "pedi": [],
+        "adult": []
     },
-    "protocols": [
-        "Not available"
-    ]
+    "protocols": []
 }

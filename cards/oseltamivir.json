@@ -1,0 +1,28 @@
+{
+    "name": "Oseltamivir",
+    "class": [
+        "Antiviral"
+    ],
+    "indications": [
+        "Acute uncomplicated illness due to influenza infection in patients 2 weeks of age and older",
+        "No authorized EMS usages according to State and Iredell county protocols"
+    ],
+    "contraindications": [
+        "None"
+    ],
+    "side_effects": [
+        "Nausea/vomiting",
+        "Stomach pain",
+        "Diarrhea",
+        "Headache"
+    ],
+    "routes": [],
+    "dose": {
+        "general": [
+            "No authorized dosages per State and Iredell county protocols"
+        ],
+        "pedi": [],
+        "adult": []
+    },
+    "protocols": []
+}

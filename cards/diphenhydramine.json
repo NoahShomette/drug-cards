@@ -27,9 +27,7 @@
         "{PO}"
     ],
     "dose": {
-        "general": [
-            ""
-        ],
+        "general": [],
         "pedi": [
             "1mg/kg maximum of 50mg [PM1]"
         ],

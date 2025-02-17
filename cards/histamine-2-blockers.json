@@ -1,7 +1,7 @@
 {
     "name": "Histamine 2 Blockers",
     "class": [
-        "H2 Blocker"
+        "Histamine H2-receptor antagonists"
     ],
     "indications": [
         "[AM1] [PM1] Allergic Reaction"
@@ -17,12 +17,10 @@
     ],
     "dose": {
         "general": [
-            "No information on dosages per State and Iredell county protocols"
+            "No authorized on dosages per State and Iredell county protocols"
         ],
-        "pedi": [
-        ],
-        "adult": [
-        ]
+        "pedi": [],
+        "adult": []
     },
     "protocols": [
         "[AM1]",

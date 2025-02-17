@@ -5,17 +5,27 @@
         "Anesthetic"
     ],
     "indications": [
-        "No authorized usages according to State and Iredell county protocols"
+        "Traumatic musculoskeletal injury",
+        "Burns",
+        "Moderate to severe pain"
     ],
     "contraindications": [
-        "Not available"
+        "Altered LOC",
+        "Hypotension",
+        "Chest Trauma",
+        "COPD",
+        "Abdominal pain or injury",
+        "Head injury",
+        "Bowel obstruction"
     ],
     "side_effects": [
-        "Not available"
+        "Altered LOC",
+        "Apnea",
+        "Dizziness",
+        "Nausea/vomiting",
+        "Malignant hypertension (rare)"
     ],
-    "routes": [
-        "Not available"
-    ],
+    "routes": [],
     "dose": {
         "general": [
             "No information on dosages per State and Iredell county protocols"
@@ -23,6 +33,5 @@
         "pedi": [],
         "adult": []
     },
-    "protocols": [
-    ]
+    "protocols": []
 }

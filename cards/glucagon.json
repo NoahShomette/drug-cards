@@ -22,9 +22,7 @@
         "{IM}"
     ],
     "dose": {
-        "general": [
-            ""
-        ],
+        "general": [],
         "pedi": [
             "[PM2] - 0.1mg/kg max 1mg {IM} repeat every 15 minutes as needed to keep BGL > 60 mg/dl",
             "[TE7] - 0.1mg/kg {IV/IO} {IM} may repeat in 15 minutes if needed"

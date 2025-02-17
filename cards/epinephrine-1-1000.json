@@ -38,9 +38,7 @@
         "{Nebulizer}"
     ],
     "dose": {
-        "general": [
-            ""
-        ],
+        "general": [],
         "pedi": [
             "Anaphylaxis [PM1] < 30kg 0.15 repeat every 5 minutes if no improvement",
             ">= 30kg 0.3-0.5mg repeat every 5 minutes if no improvement",

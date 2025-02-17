@@ -27,29 +27,15 @@
         "Cardiac arrest",
         "Diaphoresis"
     ],
-    "routes": [
-        "{}"
-    ],
-    "interactions": "",
+    "routes": [],
     "dose": {
         "general": [
-            ""
+            "No information on dosages per State and Iredell county protocols"
         ],
-        "pedi": [
-            ""
-        ],
-        "adult": [
-            ""
-        ]
+        "pedi": [],
+        "adult": []
     },
     "onset": "15 minutes",
     "duration": "2-8 hours",
-    "protocols": [
-        "[]",
-        "[]"
-    ],
-    "pearls": [
-        ""
-    ],
-    "overdose-signs": ""
+    "protocols": []
 }

@@ -38,7 +38,7 @@
     "dose": {
         "general": [],
         "pedi": [
-            "[UP10] [UP11] Ibuprofen yoa > 6 months 10mg/kg {PO}"
+            "[UP10] [UP11] yoa > 6 months - 10mg/kg {PO}"
         ],
         "adult": [
             "[IP10] [UP11] 400-600mg {PO}"

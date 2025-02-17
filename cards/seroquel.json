@@ -1,0 +1,33 @@
+{
+    "name": "Seroquel",
+    "alt_names": [
+        "Quetiapine"
+    ],
+    "class": [
+        "Atypical antipsychotic"
+    ],
+    "indications": [
+        "Episodes of Mania",
+        "Depression in patients with Bipolar Disorder",
+        "No authorized EMS usages according to State and Iredell county protocols"
+    ],
+    "contraindications": [],
+    "side_effects": [
+        "Speech problems",
+        "Dizziness, drowsiness, tiredness",
+        "Nausea/vomiting",
+        "Abdominal pain",
+        "Dry mouth"
+    ],
+    "routes": [
+        "{PO}"
+    ],
+    "dose": {
+        "general": [
+            "No authorized dosages per State and Iredell county protocols"
+        ],
+        "pedi": [],
+        "adult": []
+    },
+    "protocols": []
+}

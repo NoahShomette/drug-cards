@@ -4,30 +4,28 @@
         "Immunizations"
     ],
     "indications": [
-        "No authorized EMS usages according to State and Iredell county protocols"
+        "Administration of immunizations and TB skin tests are not limited to public health initiatives"
     ],
     "contraindications": [
-        "Not available"
+        "None"
     ],
     "side_effects": [
-        "Not available"
+        "Mpme"
     ],
     "routes": [
-        "Not available"
+        "{Subdermal}"
     ],
     "dose": {
         "general": [
-            "No information on EMS dosages per State and Iredell county protocols"
+            "0.1 mL PPD-S {Subdermal}"
         ],
-        "pedi": [
-        ],
-        "adult": [
-        ]
+        "pedi": [],
+        "adult": []
     },
     "pearls": [
         "Administration of immunizations and TB skin tests are not limited to public health initiatives"
     ],
     "protocols": [
-        "Not available"
+        "No State Protocols"
     ]
 }

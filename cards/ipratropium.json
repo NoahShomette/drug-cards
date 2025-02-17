@@ -24,8 +24,7 @@
         "{Nebulizer}"
     ],
     "dose": {
-        "general": [
-        ],
+        "general": [],
         "pedi": [
             "Asthma - 1.25-2.5mg Albuterol +/- Ipratropium 0.5 mg (DuoNeb) {Nebulizer} repeat as needed x3 [AR7]",
             "Allergic Reaction - 2.5-5mg Albuterol +/- Ipratropium 0.5 mg (DuoNeb) {Nebulizer} repeat as needed x3 [PM1]"

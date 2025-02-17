@@ -32,11 +32,8 @@
         "{IV}",
         "{IO}"
     ],
-    "interactions": "",
     "dose": {
-        "general": [
-            ""
-        ],
+        "general": [],
         "pedi": [
             "[AO2] Neonate - BGL < 40 D10 2ml/kg {IV/IO} until BGL >= 40",
             "[PM2] < 1 yoa D10 5mL/kg {IV/IO} repeat as needed",

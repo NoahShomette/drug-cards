@@ -4,7 +4,7 @@
         "Immunizations"
     ],
     "indications": [
-        "No authorized EMS usages according to State and Iredell county protocols"
+        "Administration of immunizations and TB skin tests are not limited to public health initiatives"
     ],
     "contraindications": [
         "Not available"
@@ -19,12 +19,8 @@
         "general": [
             "No information on EMS dosages per State and Iredell county protocols"
         ],
-        "pedi": [
-            ""
-        ],
-        "adult": [
-            ""
-        ]
+        "pedi": [],
+        "adult": []
     },
     "pearls": [
         "Administration of immunizations and TB skin tests are not limited to public health initiatives"

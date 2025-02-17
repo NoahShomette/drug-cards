@@ -25,9 +25,7 @@
     ],
     "interactions": "Will interact with syrup of ipecac (absorbed by AC and will result in vomiting of the charcoal)",
     "dose": {
-        "general": [
-            ""
-        ],
+        "general": [],
         "pedi": [
             "If time of ingestion < 1hr - 1gm/kg max 50mg {PO}"
         ],

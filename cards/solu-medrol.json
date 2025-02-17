@@ -26,13 +26,12 @@
         "Hypertension"
     ],
     "routes": [
-        "{}"
+        "{IV/IO}",
+        "{IM}"
     ],
     "interactions": "",
     "dose": {
-        "general": [
-            ""
-        ],
+        "general": [],
         "pedi": [
             "[PM1] [PM3] [AR7] 2mg/kg max 125mg {IV/IO} {IM}"
         ],

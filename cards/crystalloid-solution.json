@@ -1,7 +1,8 @@
 {
     "name": "Crystalloid Solution",
     "alt_names": [
-        "Lactated Ringer"
+        "Lactated Ringer",
+        "Normal Saline"
     ],
     "class": [
         "Crystalloid"
@@ -10,7 +11,7 @@
         "Dehydration",
         "Hypovolemia",
         "Shock",
-        "Burns",
+        "Burns (Lactated Ringer)",
         "Ocular irrigation"
     ],
     "contraindications": [
@@ -19,7 +20,7 @@
     "side_effects": [
         "Fluid overload",
         "Metabolic alkalosis",
-        "Increased intracranial pressure (large volumes, primarily of concern in patients with already increased intracranial pressure)"
+        "Increased intracranial pressure (large volumes, concern in patients already with ICP)"
     ],
     "routes": [
         "{IV/IO}"
@@ -29,16 +30,21 @@
             "TBSA - Total Body Surface Area - severity of burns metric measuring only 2nd and 3rd degree burns"
         ],
         "pedi": [
-            "All ages if TBSA < 20% 0.25 mL/kg * (TBSA%)/hr",
-            "TBSA >= 20% and age <= 5 125 mL/hr",
-            "TBSA >= 20% and age 6-14 250 mL/hr"
+            "Normal Saline Bolus: 10-20 mL/kg Bolus max 60 mL/kg {IV/IO} See specific protocol for exact dosage",
+            "[TB3] Normal Saline: Entrapped < 2 hours - 3x maintenance fluid rate infusion - Entrapped > 2 hours - maintenance fluid rate infusion {IV/IO}",
+            "(Burns) Lactated Ringer or NS: TBSA < 20% - 0.25 mL/kg * (TBSA%)/hr",
+            "(Burns) Lactated Ringer or NS: TBSA >= 20% and age <= 5 - 125 mL/hr",
+            "(Burns) Lactated Ringer or NS: TBSA >= 20% and age 6-14 - 250 mL/hr"
         ],
         "adult": [
-            "All ages if TBSA < 20% 0.25 mL/kg * (TBSA%)/hr",
-            "TBSA >= 20% and age >= 15 500 mL/hr"
+            "Normal Saline Bolus: 500 mL - 1 Liter Bolus max 1-2 Liter {IV/IO} See specific protocol for exact dosage",
+            "[TB3] Normal Saline: Entrapped < 2 hours - 1 Liter per hour infusion - Entrapped > 2 hours - 500 mL per hour infusion  {IV/IO}",
+            "(Burns) Lactated Ringer or NS: TBSA < 20% - 0.25 mL/kg * (TBSA%)/hr",
+            "(Burns) Lactated Ringer or NS: TBSA >= 20% - and age >= 15 500 mL/hr"
         ]
     },
     "protocols": [
+        "Normal Saline various protocols",
         "[AC4]",
         "[TB1]",
         "[TB4]",

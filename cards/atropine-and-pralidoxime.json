@@ -1,5 +1,5 @@
 {
-    "name": "Atropine & Pralidoxime",
+    "name": "Atropine and Pralidoxime",
     "alt_names": [
         "DuoDote"
     ],
@@ -20,9 +20,7 @@
         "{Autoinjector}"
     ],
     "dose": {
-        "general": [
-            ""
-        ],
+        "general": [],
         "pedi": [
             "< 8 YoA {Autoinjector} x1 each 2mg Atropine (combined with 600mg Pralidoxime) [TE8]",
             "8-14 YoA {Autoinjector} x2 each 2mg Atropine (combined with 600mg Pralidoxime) [TE8]"
