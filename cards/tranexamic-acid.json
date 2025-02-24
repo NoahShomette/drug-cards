@@ -32,7 +32,7 @@
     "dose": {
         "general": [],
         "pedi": [
-            "[TB6] 20 mg/kd max 1gm over 10 minutes {IV/IO}"
+            "[TB6] 20 mg/kg max 1gm over 10 minutes {IV/IO}"
         ],
         "adult": [
             "[AO3] [TB6] 1-2gm over 10 minutes {IV/IO}"
